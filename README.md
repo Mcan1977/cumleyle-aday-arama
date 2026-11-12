@@ -108,3 +108,5 @@ test/             birim testleri
 ## Sırada ne var
 
 Sonnet ile Opus arasındaki farkı gerçekten görmek için kümeyi zorlaştırmak: birbirine çok benzeyen profiller, çelişkili bilgi içeren profiller, 20-30 adaylık kısa liste ve her aramanın üç kez koşulması. Sonuç yine aynı çıkarsa bu, sıralama adımının maliyetini yarıya indirmek için yeterli gerekçe olur.
+
+Diğer işlerim ve ekran kayıtları: [murat.canteknoloji.tr](https://murat.canteknoloji.tr)
