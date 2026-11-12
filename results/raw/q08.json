@@ -1,0 +1,262 @@
+{
+  "id": "q08",
+  "query": "Docker ve Kubernetes bilen DevOps mühendisi arıyorum, AWS deneyimi şart.",
+  "criteria": {
+    "role": "DevOps Mühendisi",
+    "requiredSkills": [
+      "AWS"
+    ],
+    "skills": [
+      "Docker",
+      "Kubernetes"
+    ],
+    "city": null,
+    "cityFlexible": true,
+    "minYears": null,
+    "candidateType": "professional",
+    "summary": "Docker ve Kubernetes konteyner teknolojilerinde deneyimli, AWS bulut altyapısında çalışmış ve uygulamaların geliştirme-yayın süreçlerini otomatikleştirebilen bir DevOps mühendisi. Konteynerleştirilmiş uygulamaları Kubernetes kümelerinde yönetebilen, CI/CD süreçlerini kurup izleyebilen ve AWS servisleriyle ölçeklenebilir, güvenilir altyapılar tasarlayabilen bir aday aranmaktadır."
+  },
+  "criteriaCall": {
+    "model": "claude-haiku-5-5",
+    "usage": {
+      "inputTokens": 1542,
+      "outputTokens": 283
+    },
+    "costUsd": 0.00029570000000000003,
+    "ms": 2121
+  },
+  "embeddingCostUsd": 0.00000326,
+  "neighbors": [
+    {
+      "id": "a40",
+      "similarity": 0.7195247790315904
+    },
+    {
+      "id": "a39",
+      "similarity": 0.6915620566953821
+    },
+    {
+      "id": "a42",
+      "similarity": 0.6200879187976258
+    },
+    {
+      "id": "a41",
+      "similarity": 0.6021708212073242
+    },
+    {
+      "id": "a22",
+      "similarity": 0.5859730583798899
+    },
+    {
+      "id": "a11",
+      "similarity": 0.5414121424976853
+    },
+    {
+      "id": "a09",
+      "similarity": 0.5378126280498656
+    },
+    {
+      "id": "a25",
+      "similarity": 0.5344769644732037
+    },
+    {
+      "id": "a08",
+      "similarity": 0.5321726275768341
+    },
+    {
+      "id": "a13",
+      "similarity": 0.5278486697852548
+    }
+  ],
+  "models": {
+    "haiku": {
+      "results": [
+        {
+          "id": "a39",
+          "score": 92,
+          "reason": "AWS EKS üzerinde Kubernetes ve Docker yetenekleri profilinde açıkça görünüyor, 5 yıl deneyimi var. İstanbul'da olması ve uzaktan çalışabilmesi de isteğinizle örtüşüyor."
+        },
+        {
+          "id": "a42",
+          "score": 84,
+          "reason": "Profilinde AWS, Kubernetes ve Docker yetenekleri var ve AWS üzerinde Kubernetes işletiyor. Uzaktan çalışmaması şehir esnekliğinizle sorun oluşturmuyor, ancak Docker projelerde ayrıca görünmüyor."
+        },
+        {
+          "id": "a22",
+          "score": 62,
+          "reason": "AWS üzerinde Docker imajlarıyla dağıtım yapmış ve uzaktan çalışabiliyor. Kubernetes deneyimi profilinde görünmüyor, ağırlıklı olarak backend geliştirme odaklı."
+        },
+        {
+          "id": "a41",
+          "score": 58,
+          "reason": "AWS ve Docker deneyimi var, 8 yıllık sistem yönetimi geçmişi güçlü. Kubernetes ile çalışmadığını açıkça belirtiyor, bu da istediğiniz yeteneklerden birini eksik bırakıyor."
+        },
+        {
+          "id": "a40",
+          "score": 45,
+          "reason": "Profilinde Docker ve Kubernetes var; Azure AKS ve Helm deneyimi güçlü. Ancak AWS şartı karşılanmıyor, aday yalnızca Azure üzerinde çalıştığını belirtiyor."
+        },
+        {
+          "id": "a09",
+          "score": 25,
+          "reason": "Docker yeteneği var ancak AWS ve Kubernetes profilinde görünmüyor. Makine öğrenmesi ve RAG odaklı bir profil, DevOps rolüyle ilgisi zayıf."
+        },
+        {
+          "id": "a11",
+          "score": 15,
+          "reason": "Profilinde AWS, Docker ve Kubernetes görünmüyor; Python, FastAPI ve OpenAI API ağırlıklı. DevOps rolüyle örtüşen bir deneyim bulunmuyor."
+        },
+        {
+          "id": "a08",
+          "score": 12,
+          "reason": "AWS, Docker ve Kubernetes yetenekleri profilinde yer almıyor. LangChain, RAG ve FastAPI ağırlıklı yapay zekâ geliştirme odaklı bir profil."
+        },
+        {
+          "id": "a25",
+          "score": 10,
+          "reason": "Profilinde AWS, Docker ya da Kubernetes görünmüyor. Django ve Celery ile backend geliştirme yapıyor, DevOps kriterleriyle örtüşmüyor."
+        },
+        {
+          "id": "a13",
+          "score": 10,
+          "reason": "Profilinde AWS, Docker ya da Kubernetes görünmüyor. TypeScript, Node.js ve RAG ağırlıklı full-stack geliştirme odaklı."
+        }
+      ],
+      "call": {
+        "model": "claude-haiku-5-5",
+        "usage": {
+          "inputTokens": 3850,
+          "outputTokens": 1564
+        },
+        "costUsd": 0.001167,
+        "ms": 7060
+      }
+    },
+    "sonnet": {
+      "results": [
+        {
+          "id": "a39",
+          "score": 96,
+          "reason": "5 yıllık DevOps mühendisi; AWS EKS üzerinde Terraform ile 30 servisli Kubernetes kümeleri yönetmiş. Docker, Kubernetes ve AWS'nin üçü de profilinde var."
+        },
+        {
+          "id": "a42",
+          "score": 86,
+          "reason": "AWS üzerinde otomatik ölçeklenen Kubernetes projesi var ve Docker biliyor. Unvanı platform mühendisi, DevOps değil; uzaktan çalışmıyor ama şehir şart olmadığı için sorun değil."
+        },
+        {
+          "id": "a41",
+          "score": 60,
+          "reason": "8 yıllık sistem yöneticisi; AWS EC2 ve Docker deneyimi var. Kubernetes ile çalışmadığını belirtiyor ve DevOps unvanı yok."
+        },
+        {
+          "id": "a22",
+          "score": 50,
+          "reason": "AWS ve Docker deneyimi var, ancak backend geliştirici ve dağıtımı yalnızca tek sunuculu bir kurulumla sınırlı. Kubernetes görünmüyor, DevOps deneyimi sınırlı."
+        },
+        {
+          "id": "a40",
+          "score": 35,
+          "reason": "Docker ve Kubernetes deneyimi var, ancak yalnızca Azure'da çalışmış ve AWS deneyimi olmadığını kendisi belirtiyor. Şart koşulan AWS görünmüyor."
+        },
+        {
+          "id": "a09",
+          "score": 14,
+          "reason": "Docker biliyor ama ML mühendisi; şart olan AWS ile Kubernetes profilinde görünmüyor."
+        },
+        {
+          "id": "a11",
+          "score": 4,
+          "reason": "Python/FastAPI backend geliştirici; AWS, Docker ve Kubernetes profilinde görünmüyor."
+        },
+        {
+          "id": "a25",
+          "score": 4,
+          "reason": "Django backend geliştirici; AWS, Docker ve Kubernetes deneyimi profilinde görünmüyor."
+        },
+        {
+          "id": "a08",
+          "score": 4,
+          "reason": "Yapay zekâ mühendisi; AWS, Docker ve Kubernetes deneyimi profilinde görünmüyor."
+        },
+        {
+          "id": "a13",
+          "score": 4,
+          "reason": "Full-stack geliştirici; AWS, Docker ve Kubernetes deneyimi profilinde görünmüyor."
+        }
+      ],
+      "call": {
+        "model": "claude-sonnet-5-5",
+        "usage": {
+          "inputTokens": 3850,
+          "outputTokens": 811
+        },
+        "costUsd": 0.01581,
+        "ms": 6577
+      }
+    },
+    "opus": {
+      "results": [
+        {
+          "id": "a39",
+          "score": 95,
+          "reason": "AWS EKS üzerinde Terraform ile 30 servislik Kubernetes kümeleri kurmuş, Docker da yetenekleri arasında. 5 yıllık DevOps deneyimi var ve uzaktan çalışabiliyor."
+        },
+        {
+          "id": "a42",
+          "score": 85,
+          "reason": "AWS üzerinde Kubernetes ile otomatik ölçeklenen oyun sunucuları işletmiş, Docker da yetenekleri arasında. Unvanı platform mühendisi ve uzaktan çalışmıyor, ancak şehir şart olmadığı için puanı düşürmedi."
+        },
+        {
+          "id": "a41",
+          "score": 58,
+          "reason": "AWS EC2 ve Docker deneyimi var, 8 yıllık sistem yönetimi geçmişi bulunuyor. Kubernetes ile çalışmadığını belirtiyor ve DevOps rolüne kısmen uyuyor."
+        },
+        {
+          "id": "a40",
+          "score": 45,
+          "reason": "Docker, Kubernetes ve Helm konusunda güçlü bir DevOps profili var. Ancak şart koştuğun AWS deneyimi yok, yalnızca Azure ile çalışmış."
+        },
+        {
+          "id": "a22",
+          "score": 45,
+          "reason": "AWS üzerinde Docker ile tek sunuculu dağıtım yapmış. Ancak bir backend geliştirici ve profilinde Kubernetes görünmüyor."
+        },
+        {
+          "id": "a09",
+          "score": 12,
+          "reason": "ML mühendisi; Docker biliyor. Profilinde AWS ve Kubernetes görünmüyor."
+        },
+        {
+          "id": "a11",
+          "score": 5,
+          "reason": "Python backend geliştirici. Profilinde AWS, Docker ve Kubernetes görünmüyor."
+        },
+        {
+          "id": "a25",
+          "score": 5,
+          "reason": "Django backend geliştirici. Profilinde AWS, Docker ve Kubernetes görünmüyor."
+        },
+        {
+          "id": "a08",
+          "score": 5,
+          "reason": "Yapay zekâ mühendisi. Profilinde AWS, Docker ve Kubernetes görünmüyor."
+        },
+        {
+          "id": "a13",
+          "score": 5,
+          "reason": "Full-stack geliştirici. Profilinde AWS, Docker ve Kubernetes görünmüyor."
+        }
+      ],
+      "call": {
+        "model": "claude-opus-5-5",
+        "usage": {
+          "inputTokens": 3850,
+          "outputTokens": 794
+        },
+        "costUsd": 0.03128,
+        "ms": 7542
+      }
+    }
+  }
+}

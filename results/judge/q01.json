@@ -1,0 +1,37 @@
+{
+  "id": "q01",
+  "blind": {
+    "A": "haiku",
+    "B": "sonnet",
+    "C": "opus"
+  },
+  "scores": [
+    {
+      "system": "A",
+      "ranking": 8,
+      "reasons": 8,
+      "note": "Tüm koşulları karşılayan a01, a02 ve a06 üstte yer alıyor; eksik koşullu adaylar makul bir sırayla geride. a04'ün tek eksik koşula rağmen a05'in altında olması tartışmalı, ancak gerekçeler doğru ve eksik koşulu açıkça belirtiyor."
+    },
+    {
+      "system": "B",
+      "ranking": 8,
+      "reasons": 8,
+      "note": "Uygun üç aday başta, eksik koşullu adaylar mantıklı bir sırada. Gerekçeler kısa ve eksik koşulu söylüyor, fakat a13 için profilde 'uzaktan çalışabilir' yazarken 'uzaktan çalışmak istiyor' demesi küçük bir abartı."
+    },
+    {
+      "system": "C",
+      "ranking": 8,
+      "reasons": 9,
+      "note": "Uygun üç aday üstte, tek koşulu eksik olan adaylar makul sırayla geride. Gerekçeler kısa, profile sadık ve eksik koşulu net biçimde gösteriyor."
+    }
+  ],
+  "call": {
+    "model": "claude-opus-5-5",
+    "usage": {
+      "inputTokens": 6776,
+      "outputTokens": 1085
+    },
+    "costUsd": 0.048804,
+    "ms": 12145
+  }
+}

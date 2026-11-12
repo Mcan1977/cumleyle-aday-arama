@@ -1,0 +1,123 @@
+{
+  "searches": 10,
+  "shortlistRecall": 0.9666666666666667,
+  "relevantFound": 29,
+  "relevantTotal": 30,
+  "trapCount": 17,
+  "fixedCostPerSearchUsd": 0.000290342,
+  "totalSpentUsd": 0.9380194199999999,
+  "models": {
+    "vector": {
+      "ndcg5": 0.8761614802417454,
+      "topBest": 6,
+      "trapsAhead": 9,
+      "trapsScoredHigh": null,
+      "judgeRanking": null,
+      "judgeReasons": null,
+      "costPerSearchUsd": null,
+      "secondsPerSearch": null
+    },
+    "haiku": {
+      "ndcg5": 0.9824755400444808,
+      "topBest": 10,
+      "trapsAhead": 3,
+      "trapsScoredHigh": 1,
+      "judgeRanking": 8.1,
+      "judgeReasons": 7.2,
+      "costPerSearchUsd": 0.0011702,
+      "secondsPerSearch": 7.4011
+    },
+    "sonnet": {
+      "ndcg5": 1,
+      "topBest": 10,
+      "trapsAhead": 0,
+      "trapsScoredHigh": 0,
+      "judgeRanking": 8.8,
+      "judgeReasons": 8.9,
+      "costPerSearchUsd": 0.016481,
+      "secondsPerSearch": 6.294099999999999
+    },
+    "opus": {
+      "ndcg5": 1,
+      "topBest": 10,
+      "trapsAhead": 0,
+      "trapsScoredHigh": 0,
+      "judgeRanking": 8.7,
+      "judgeReasons": 8.8,
+      "costPerSearchUsd": 0.032732,
+      "secondsPerSearch": 7.992900000000001
+    }
+  },
+  "perQuery": [
+    {
+      "id": "q01",
+      "vector": "0.86",
+      "haiku": "0.97",
+      "sonnet": "1.00",
+      "opus": "1.00"
+    },
+    {
+      "id": "q02",
+      "vector": "0.97",
+      "haiku": "0.99",
+      "sonnet": "1.00",
+      "opus": "1.00"
+    },
+    {
+      "id": "q03",
+      "vector": "0.70",
+      "haiku": "0.99",
+      "sonnet": "1.00",
+      "opus": "1.00"
+    },
+    {
+      "id": "q04",
+      "vector": "0.93",
+      "haiku": "0.93",
+      "sonnet": "1.00",
+      "opus": "1.00"
+    },
+    {
+      "id": "q05",
+      "vector": "0.90",
+      "haiku": "0.94",
+      "sonnet": "1.00",
+      "opus": "1.00"
+    },
+    {
+      "id": "q06",
+      "vector": "0.98",
+      "haiku": "1.00",
+      "sonnet": "1.00",
+      "opus": "1.00"
+    },
+    {
+      "id": "q07",
+      "vector": "0.73",
+      "haiku": "1.00",
+      "sonnet": "1.00",
+      "opus": "1.00"
+    },
+    {
+      "id": "q08",
+      "vector": "0.76",
+      "haiku": "1.00",
+      "sonnet": "1.00",
+      "opus": "1.00"
+    },
+    {
+      "id": "q09",
+      "vector": "0.92",
+      "haiku": "1.00",
+      "sonnet": "1.00",
+      "opus": "1.00"
+    },
+    {
+      "id": "q10",
+      "vector": "0.99",
+      "haiku": "1.00",
+      "sonnet": "1.00",
+      "opus": "1.00"
+    }
+  ]
+}

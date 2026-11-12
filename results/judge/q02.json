@@ -1,0 +1,37 @@
+{
+  "id": "q02",
+  "blind": {
+    "A": "sonnet",
+    "B": "opus",
+    "C": "haiku"
+  },
+  "scores": [
+    {
+      "system": "A",
+      "ranking": 9,
+      "reasons": 9,
+      "note": "Tüm koşulları karşılayan a08 ve a09 en üstte, ardından koşulları karşılayan öğrenci a14 geliyor; uzaktan çalışmayan a12 ile RAG deneyimi olmayan a11 geride ve gerekçeler profile dayalı, eksikleri açıkça belirtiyor."
+    },
+    {
+      "system": "B",
+      "ranking": 9,
+      "reasons": 9,
+      "note": "Sıralama A ile neredeyse aynı ve isteğe uygun; gerekçeler doğru, kısa ve uzaktan çalışma ile RAG eksiklerini açıkça söylüyor."
+    },
+    {
+      "system": "C",
+      "ranking": 8,
+      "reasons": 8,
+      "note": "Üst sıralar doğru; RAG şartını karşılamayan a11'in uzaktan çalışmayan a12'nin önüne konması savunulabilir ama tartışmalı, gerekçeler doğru olmakla birlikte biraz uzun ve a14 için yazılan 'akademik LLM geçmişi' ifadesi profili hafifçe abartıyor."
+    }
+  ],
+  "call": {
+    "model": "claude-opus-5-5",
+    "usage": {
+      "inputTokens": 6593,
+      "outputTokens": 869
+    },
+    "costUsd": 0.043752,
+    "ms": 9489
+  }
+}

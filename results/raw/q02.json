@@ -1,0 +1,263 @@
+{
+  "id": "q02",
+  "query": "Uzaktan çalışabilecek, Python ile dil modeli (LLM) uygulaması geliştirmiş biri arıyorum; RAG deneyimi şart.",
+  "criteria": {
+    "role": null,
+    "requiredSkills": [
+      "Python",
+      "RAG"
+    ],
+    "skills": [
+      "LLM",
+      "dil modeli uygulamaları"
+    ],
+    "city": null,
+    "cityFlexible": true,
+    "minYears": null,
+    "candidateType": "professional",
+    "summary": "Python ile dil modeli (LLM) tabanlı uygulamalar geliştirmiş, Retrieval-Augmented Generation (RAG) mimarilerinde deneyimli, uzaktan çalışabilen bir yazılım geliştirici. Python ile veri işleme, prompt tasarımı, vektör veritabanları ve gömme (embedding) tabanlı arama süreçlerinde çalışmış; üretime yönelik LLM uygulamaları geliştirme konusunda pratik deneyime sahip."
+  },
+  "criteriaCall": {
+    "model": "claude-haiku-5-5",
+    "usage": {
+      "inputTokens": 1561,
+      "outputTokens": 264
+    },
+    "costUsd": 0.0002881,
+    "ms": 2178
+  },
+  "embeddingCostUsd": 0.00000338,
+  "neighbors": [
+    {
+      "id": "a08",
+      "similarity": 0.6812284635265693
+    },
+    {
+      "id": "a09",
+      "similarity": 0.6683234446413928
+    },
+    {
+      "id": "a12",
+      "similarity": 0.6419621166614107
+    },
+    {
+      "id": "a14",
+      "similarity": 0.6174911725997896
+    },
+    {
+      "id": "a47",
+      "similarity": 0.5480109953307848
+    },
+    {
+      "id": "a11",
+      "similarity": 0.5427678912754965
+    },
+    {
+      "id": "a32",
+      "similarity": 0.538689573128185
+    },
+    {
+      "id": "a25",
+      "similarity": 0.5298225764027034
+    },
+    {
+      "id": "a10",
+      "similarity": 0.5263862141412654
+    },
+    {
+      "id": "a18",
+      "similarity": 0.5168607458708291
+    }
+  ],
+  "models": {
+    "haiku": {
+      "results": [
+        {
+          "id": "a08",
+          "score": 95,
+          "reason": "Python ile RAG geliştirmiş, pgvector üzerinde 40 bin sayfalık belge araması yapan bir projesi var ve iki yıldır tamamen uzaktan çalışıyor. Aradığınız şartların tamamını karşılıyor."
+        },
+        {
+          "id": "a09",
+          "score": 88,
+          "reason": "Python ile RAG kullanan bir sözleşme soru-cevap aracı geliştirmiş ve uzaktan çalışabileceğini belirtmiş. LLM deneyimi de profilinde açıkça görünüyor."
+        },
+        {
+          "id": "a14",
+          "score": 66,
+          "reason": "Python ile RAG tabanlı bir bitirme projesi var ve uzaktan çalışabilir, ancak henüz öğrenci ve profesyonel deneyimi görünmüyor. LLM alanında akademik bir geçmişi var."
+        },
+        {
+          "id": "a11",
+          "score": 58,
+          "reason": "Python ve OpenAI API ile dil modeli entegrasyonu yapmış ve uzaktan çalışıyor. Ancak profilinde RAG ya da belge araması kullanmadığı açıkça belirtiliyor, bu da şart kriterinizi karşılamıyor."
+        },
+        {
+          "id": "a12",
+          "score": 42,
+          "reason": "Python ve RAG deneyimi var, ancak yalnızca ofisten çalışmak istediği ve uzaktan çalışmayı düşünmediği profilinde yazıyor. Uzaktan çalışma kriteriniz bu adayla örtüşmüyor."
+        },
+        {
+          "id": "a10",
+          "score": 38,
+          "reason": "Python ile veri bilimi ve tahmin modelleri yapıyor, uzaktan çalışabiliyor. Ancak dil modelleriyle çalışmadığını ve RAG deneyimi olmadığını belirtiyor."
+        },
+        {
+          "id": "a25",
+          "score": 35,
+          "reason": "Uzaktan çalışan bir Python backend geliştiricisi, ancak profilinde RAG ya da dil modeli deneyimi görünmüyor. Şart koştuğunuz RAG yeteneği eksik."
+        },
+        {
+          "id": "a47",
+          "score": 30,
+          "reason": "Görüntü işleme ve YOLO üzerine çalışmış yeni mezun, ancak profilinde RAG veya dil modeli deneyimi görünmüyor. Şart koştuğunuz RAG yeteneği eksik."
+        },
+        {
+          "id": "a32",
+          "score": 12,
+          "reason": "İş zekâsı ve SQL/Tableau üzerine çalışıyor, Python ya da dil modeli deneyimi profilinde görünmüyor. Aradığınız teknik profille örtüşmüyor."
+        },
+        {
+          "id": "a18",
+          "score": 5,
+          "reason": "Gömülü sistemler ve savunma sanayisi aviyonik yazılımı alanında çalışıyor. Python, RAG ve dil modeli deneyimi profilinde yer almıyor ve uzaktan çalışmıyor."
+        }
+      ],
+      "call": {
+        "model": "claude-haiku-5-5",
+        "usage": {
+          "inputTokens": 3966,
+          "outputTokens": 1028
+        },
+        "costUsd": 0.0009106,
+        "ms": 5449
+      }
+    },
+    "sonnet": {
+      "results": [
+        {
+          "id": "a08",
+          "score": 97,
+          "reason": "Python ile RAG geliştirmiş: 40 bin sayfalık arşivi pgvector üzerinde arayan belge asistanı var. 3 yıl dil modeli deneyimi var, 2 yıldır tamamen uzaktan çalışıyor."
+        },
+        {
+          "id": "a09",
+          "score": 92,
+          "reason": "Python ile RAG tabanlı sözleşme soru-cevap aracı geliştirmiş, LLM ve OpenAI API deneyimi var. Uzaktan çalışabiliyor; deneyimi 2 yıl."
+        },
+        {
+          "id": "a14",
+          "score": 78,
+          "reason": "Bitirme projesinde Python ile RAG tabanlı soru-cevap sistemi yapmış ve uzaktan çalışabilir. Öğrenci olduğu için profesyonel deneyimi yok."
+        },
+        {
+          "id": "a12",
+          "score": 62,
+          "reason": "Python ve RAG deneyimi güçlü (banka şube asistanı, 4 yıl). Ancak uzaktan çalışmayı düşünmüyor, bu da isteğinle çelişiyor."
+        },
+        {
+          "id": "a11",
+          "score": 48,
+          "reason": "Python ve OpenAI API ile dil modeli botu yapmış, uzaktan çalışıyor. Ancak şart olan RAG deneyimi yok; bot belge araması kullanmıyor."
+        },
+        {
+          "id": "a25",
+          "score": 35,
+          "reason": "Python (Django) ile uzaktan çalışıyor ama RAG ve dil modeli deneyimi profilinde görünmüyor."
+        },
+        {
+          "id": "a10",
+          "score": 30,
+          "reason": "Python deneyimi güçlü ancak RAG ve dil modeli deneyimi yok; çalışmaları tablo verisi odaklı."
+        },
+        {
+          "id": "a47",
+          "score": 15,
+          "reason": "Python biliyor ama RAG veya dil modeli deneyimi profilinde görünmüyor. Deneyimi görüntü işleme alanında."
+        },
+        {
+          "id": "a32",
+          "score": 4,
+          "reason": "Python ve RAG profilinde görünmüyor; iş zekâsı ve raporlama alanında çalışıyor."
+        },
+        {
+          "id": "a18",
+          "score": 2,
+          "reason": "Python ve RAG görünmüyor; gömülü yazılım alanında çalışıyor ve uzaktan çalışmıyor."
+        }
+      ],
+      "call": {
+        "model": "claude-sonnet-5-5",
+        "usage": {
+          "inputTokens": 3966,
+          "outputTokens": 805
+        },
+        "costUsd": 0.015982,
+        "ms": 5701
+      }
+    },
+    "opus": {
+      "results": [
+        {
+          "id": "a08",
+          "score": 95,
+          "reason": "Python ve RAG ile 40 bin sayfalık belge asistanı geliştirmiş, 3 yıldır dil modeli uygulamaları yapıyor. İki yıldır tamamen uzaktan çalışıyor."
+        },
+        {
+          "id": "a09",
+          "score": 90,
+          "reason": "Python ile RAG tabanlı sözleşme soru-cevap aracı ve dil modeliyle belge sınıflandırma projesi var. Uzaktan çalışabiliyor."
+        },
+        {
+          "id": "a14",
+          "score": 58,
+          "reason": "Python ile RAG tabanlı bitirme projesi var ve uzaktan çalışabiliyor. Ancak öğrenci; profesyonel deneyim profilinde görünmüyor."
+        },
+        {
+          "id": "a12",
+          "score": 55,
+          "reason": "Python ve RAG deneyimi güçlü (Elasticsearch üzerinde şube asistanı, 4 yıl). Ancak uzaktan çalışmayı düşünmediğini belirtiyor, bu isteğinle çelişiyor."
+        },
+        {
+          "id": "a11",
+          "score": 45,
+          "reason": "Python ile destek botuna dil modeli entegre etmiş ve uzaktan çalışıyor. Şart olan RAG deneyimi yok, kendisi de RAG kullanmadığını belirtiyor."
+        },
+        {
+          "id": "a47",
+          "score": 18,
+          "reason": "Python bilgisi var ve uzaktan çalışabiliyor ancak alanı görüntü işleme. RAG ve LLM deneyimi profilinde görünmüyor."
+        },
+        {
+          "id": "a10",
+          "score": 18,
+          "reason": "Python ile 4 yıl veri bilimi deneyimi var ve uzaktan çalışabiliyor. Dil modelleriyle çalışmadığını belirtiyor; RAG şartı görünmüyor."
+        },
+        {
+          "id": "a25",
+          "score": 17,
+          "reason": "Python/Django ile 3 yıl uzaktan backend deneyimi var. RAG ve LLM deneyimi profilinde görünmüyor."
+        },
+        {
+          "id": "a32",
+          "score": 5,
+          "reason": "Uzaktan çalışıyor ancak SQL ve Tableau odaklı. Python ve RAG şartları profilinde görünmüyor."
+        },
+        {
+          "id": "a18",
+          "score": 3,
+          "reason": "Gömülü C/C++ alanında çalışıyor ve uzaktan çalışmıyor. Python ve RAG şartları profilinde görünmüyor."
+        }
+      ],
+      "call": {
+        "model": "claude-opus-5-5",
+        "usage": {
+          "inputTokens": 3966,
+          "outputTokens": 848
+        },
+        "costUsd": 0.032824,
+        "ms": 8693
+      }
+    }
+  }
+}

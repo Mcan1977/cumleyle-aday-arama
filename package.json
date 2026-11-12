@@ -1,0 +1,27 @@
+{
+  "name": "cumleyle-aday-arama",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Cümleyle aday arama: vektör ön elemesi ve Claude ile gerekçeli sıralama; üç modelin ölçümlü karşılaştırması.",
+  "scripts": {
+    "ara": "tsx --env-file-if-exists=.env src/cli.ts",
+    "vektor": "tsx --env-file-if-exists=.env src/build-vectors.ts",
+    "eval": "tsx --env-file-if-exists=.env eval/run.ts",
+    "eval:hakem": "tsx --env-file-if-exists=.env eval/judge.ts",
+    "eval:ozet": "tsx eval/report.ts",
+    "test": "tsx --test test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.3.0",
+    "openai": "^7.23.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.23.15",
+    "typescript": "~6.0.3"
+  },
+  "engines": { "node": ">=22.9" }
+}

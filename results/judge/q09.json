@@ -1,0 +1,37 @@
+{
+  "id": "q09",
+  "blind": {
+    "A": "opus",
+    "B": "haiku",
+    "C": "sonnet"
+  },
+  "scores": [
+    {
+      "system": "A",
+      "ranking": 9,
+      "reasons": 9,
+      "note": "Tüm koşulları karşılayan a43 en üstte; tek koşulu eksik olan a44 ve a46 ardından geliyor, geliştiriciler en sonda. Gerekçeler profile dayalı, eksik koşulu açıkça belirtiyor ve kısa."
+    },
+    {
+      "system": "B",
+      "ranking": 8,
+      "reasons": 8,
+      "note": "Sıralama doğru, ancak tasarım sistemi deneyimi olmayan grafik tasarımcı a45'e verilen 48 puan a46'ya fazla yakın. Gerekçeler doğru ve eksikleri belirtiyor, fakat gereğinden biraz uzun."
+    },
+    {
+      "system": "C",
+      "ranking": 9,
+      "reasons": 9,
+      "note": "Sıralama isteğe uygun ve puan farkları anlamlı. Gerekçeler kısa, profile sadık ve eksik koşulları net biçimde söylüyor."
+    }
+  ],
+  "call": {
+    "model": "claude-opus-5-5",
+    "usage": {
+      "inputTokens": 6718,
+      "outputTokens": 717
+    },
+    "costUsd": 0.041212,
+    "ms": 8231
+  }
+}

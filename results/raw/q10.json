@@ -1,0 +1,261 @@
+{
+  "id": "q10",
+  "query": "Görüntü işleme projesi olan yeni mezun arıyorum; OpenCV ve PyTorch bilsin.",
+  "criteria": {
+    "role": "Görüntü İşleme Mühendisi",
+    "requiredSkills": [],
+    "skills": [
+      "OpenCV",
+      "PyTorch",
+      "Görüntü İşleme"
+    ],
+    "city": null,
+    "cityFlexible": true,
+    "minYears": null,
+    "candidateType": "student",
+    "summary": "Görüntü işleme alanında projeler geliştirmiş, yeni mezun veya staj deneyimine sahip bir aday aranmaktadır. Adayın OpenCV ile görüntü ön işleme, nesne tespiti ve özellik çıkarımı gibi konularda pratik bilgisi olmalı; PyTorch ile derin öğrenme tabanlı görüntü modelleri eğitebilmelidir. Akademik ya da kişisel görüntü işleme projeleri, bu alandaki yazılım geliştirme yetkinliği ve problem çözme becerisi öne çıkan ideal bir yeni mezun görüntü işleme mühendisi."
+  },
+  "criteriaCall": {
+    "model": "claude-haiku-5-5",
+    "usage": {
+      "inputTokens": 1544,
+      "outputTokens": 328
+    },
+    "costUsd": 0.0003184,
+    "ms": 2234
+  },
+  "embeddingCostUsd": 0.000004139999999999999,
+  "neighbors": [
+    {
+      "id": "a47",
+      "similarity": 0.7754567500427221
+    },
+    {
+      "id": "a49",
+      "similarity": 0.718762912662338
+    },
+    {
+      "id": "a48",
+      "similarity": 0.6803743881653149
+    },
+    {
+      "id": "a16",
+      "similarity": 0.6659434390978136
+    },
+    {
+      "id": "a08",
+      "similarity": 0.6143669781980763
+    },
+    {
+      "id": "a11",
+      "similarity": 0.5998349506512715
+    },
+    {
+      "id": "a14",
+      "similarity": 0.598928700295922
+    },
+    {
+      "id": "a07",
+      "similarity": 0.5860499087307981
+    },
+    {
+      "id": "a37",
+      "similarity": 0.5845823865493697
+    },
+    {
+      "id": "a09",
+      "similarity": 0.5827080448310875
+    }
+  ],
+  "models": {
+    "haiku": {
+      "results": [
+        {
+          "id": "a47",
+          "score": 92,
+          "reason": "Yeni mezun ve profilinde PyTorch, OpenCV ve YOLO ile baret-yelek tespiti gibi görüntü işleme projeleri görünüyor. Ankara'da olması ve uzaktan çalışabilmesi de isteğinizle uyumlu."
+        },
+        {
+          "id": "a16",
+          "score": 90,
+          "reason": "Öğrenci olarak Teknofest İHA takımında PyTorch ile hedef tespiti ve OpenCV ile takip yapmış, görüntü işleme projesi var. Jetson üzerinde gerçek zamanlı çıkarım deneyimi de öne çıkıyor; yeni mezun değil, dördüncü sınıf öğrencisi."
+        },
+        {
+          "id": "a49",
+          "score": 72,
+          "reason": "Yeni mezun ve OpenCV ile kalite kontrol kamerası ve kenar tespiti projeleri var. Profilinde PyTorch görünmüyor ve derin öğrenme kullanmadığını belirtiyor, bu yüzden kısmi bir eksik var."
+        },
+        {
+          "id": "a48",
+          "score": 30,
+          "reason": "Yeni mezun olsa da profilinde OpenCV ve görüntü işleme projesi görünmüyor. Tablo verisi ve zaman serisi üzerine çalışmış, PyTorch yalnızca temel düzeyde."
+        },
+        {
+          "id": "a09",
+          "score": 10,
+          "reason": "Makine öğrenmesi mühendisi olarak LLM ve RAG projeleri var, ancak profilinde OpenCV, PyTorch veya görüntü işleme projesi görünmüyor."
+        },
+        {
+          "id": "a08",
+          "score": 8,
+          "reason": "Profilinde OpenCV, PyTorch veya görüntü işleme projesi görünmüyor. Dil modeli ve RAG üzerine çalışan bir yapay zekâ mühendisi."
+        },
+        {
+          "id": "a14",
+          "score": 8,
+          "reason": "Doğal dil işleme ve RAG üzerine öğrenci projeleri var, ancak OpenCV, PyTorch ve görüntü işleme profilinde görünmüyor."
+        },
+        {
+          "id": "a11",
+          "score": 5,
+          "reason": "Backend geliştirici olarak Python ve FastAPI kullanıyor; görüntü işleme, OpenCV ve PyTorch profilinde yer almıyor."
+        },
+        {
+          "id": "a07",
+          "score": 3,
+          "reason": "Frontend geliştirici; React ve TypeScript kullanıyor, görüntü işleme, OpenCV veya PyTorch deneyimi görünmüyor."
+        },
+        {
+          "id": "a37",
+          "score": 2,
+          "reason": "Proje yöneticisi olup kod yazmadığını belirtiyor; teknik yetenekleriniz arasında OpenCV, PyTorch veya görüntü işleme yok."
+        }
+      ],
+      "call": {
+        "model": "claude-haiku-5-5",
+        "usage": {
+          "inputTokens": 4033,
+          "outputTokens": 1411
+        },
+        "costUsd": 0.0011087999999999998,
+        "ms": 6826
+      }
+    },
+    "sonnet": {
+      "results": [
+        {
+          "id": "a47",
+          "score": 96,
+          "reason": "Yeni mezun; PyTorch ile YOLO tabanlı baret/yelek tespiti bitirme projesi ve OpenCV ile video akışı çalışması var. Uzaktan çalışabiliyor ve görüntü işlemede ilk işini arıyor."
+        },
+        {
+          "id": "a16",
+          "score": 88,
+          "reason": "Öğrenci; Teknofest İHA'da PyTorch ile hedef tespiti ve OpenCV ile takip projesi var, Jetson üzerinde gerçek zamanlı çıkarım yapmış. Henüz mezun değil, dördüncü sınıf."
+        },
+        {
+          "id": "a49",
+          "score": 68,
+          "reason": "Yeni mezun; OpenCV ile kalite kontrol kamerası ve kalibrasyon projeleri var, görüntü işleme deneyimi güçlü. PyTorch görünmüyor, derin öğrenme kütüphanesi kullanmadığını belirtmiş."
+        },
+        {
+          "id": "a48",
+          "score": 28,
+          "reason": "Yeni mezun ve PyTorch (temel) biliyor. Görüntü işleme projesi ve OpenCV profilinde görünmüyor."
+        },
+        {
+          "id": "a14",
+          "score": 14,
+          "reason": "Öğrenci ve NLP/RAG projeleri var. Görüntü işleme projesi, OpenCV ve PyTorch profilinde görünmüyor."
+        },
+        {
+          "id": "a07",
+          "score": 5,
+          "reason": "Frontend geliştirici, geçen yıl mezun. React ve TypeScript yetenekleri var; görüntü işleme, OpenCV ve PyTorch görünmüyor."
+        },
+        {
+          "id": "a09",
+          "score": 5,
+          "reason": "RAG ve dil modeli odaklı 2 yıllık deneyimi var. Görüntü işleme, OpenCV ve PyTorch profilinde görünmüyor."
+        },
+        {
+          "id": "a08",
+          "score": 4,
+          "reason": "Dil modeli ve RAG odaklı 3 yıllık deneyimi var. Görüntü işleme, OpenCV ve PyTorch profilinde görünmüyor, yeni mezun da değil."
+        },
+        {
+          "id": "a11",
+          "score": 4,
+          "reason": "Backend ve OpenAI API entegrasyonu deneyimi var. Görüntü işleme, OpenCV ve PyTorch görünmüyor, yeni mezun değil."
+        },
+        {
+          "id": "a37",
+          "score": 2,
+          "reason": "Kod yazmayan 7 yıllık proje yöneticisi. Görüntü işleme, OpenCV ve PyTorch yok, yeni mezun değil."
+        }
+      ],
+      "call": {
+        "model": "claude-sonnet-5-5",
+        "usage": {
+          "inputTokens": 4033,
+          "outputTokens": 897
+        },
+        "costUsd": 0.017036,
+        "ms": 6781
+      }
+    },
+    "opus": {
+      "results": [
+        {
+          "id": "a47",
+          "score": 93,
+          "reason": "Yeni mezun; bitirme projesinde PyTorch ve YOLO ile baret/yelek tespiti, OpenCV ile video akışı işleme yapmış. Uzaktan çalışabiliyor."
+        },
+        {
+          "id": "a16",
+          "score": 88,
+          "reason": "Teknofest İHA'da PyTorch ile hedef tespiti modeli eğitmiş, OpenCV ile takip yapmış ve Jetson'da gerçek zamanlı çıkarım çalıştırmış. Henüz dördüncü sınıf öğrencisi, mezun değil."
+        },
+        {
+          "id": "a49",
+          "score": 58,
+          "reason": "Yeni mezun; OpenCV ile kalite kontrol ve kamera kalibrasyonu projeleri var. PyTorch ya da derin öğrenme deneyimi yok, uzaktan da çalışmıyor."
+        },
+        {
+          "id": "a48",
+          "score": 32,
+          "reason": "Yeni mezun ve temel PyTorch bilgisi var. Görüntü işleme projesi ve OpenCV deneyimi profilinde görünmüyor."
+        },
+        {
+          "id": "a14",
+          "score": 15,
+          "reason": "Öğrenci ve yapay zekâ alanında çalışıyor ama odağı doğal dil işleme. OpenCV, PyTorch ve görüntü işleme projesi profilinde görünmüyor."
+        },
+        {
+          "id": "a09",
+          "score": 12,
+          "reason": "Makine öğrenmesi mühendisi ancak LLM/RAG odaklı ve yeni mezun değil. OpenCV, PyTorch ve görüntü işleme deneyimi görünmüyor."
+        },
+        {
+          "id": "a08",
+          "score": 10,
+          "reason": "Dil modeli ve RAG uygulamaları geliştiriyor, 3 yıl deneyimli. Görüntü işleme, OpenCV ve PyTorch profilinde yok."
+        },
+        {
+          "id": "a11",
+          "score": 6,
+          "reason": "Python backend geliştirici, 3 yıl deneyimli. Görüntü işleme, OpenCV ve PyTorch deneyimi görünmüyor."
+        },
+        {
+          "id": "a07",
+          "score": 4,
+          "reason": "Yeni mezun ama frontend (React, TypeScript) odaklı. Görüntü işleme, OpenCV ve PyTorch deneyimi yok."
+        },
+        {
+          "id": "a37",
+          "score": 2,
+          "reason": "Kod yazmayan, 7 yıllık proje yöneticisi. Aranan teknik yeteneklerin hiçbiri profilinde yok."
+        }
+      ],
+      "call": {
+        "model": "claude-opus-5-5",
+        "usage": {
+          "inputTokens": 4033,
+          "outputTokens": 872
+        },
+        "costUsd": 0.033572,
+        "ms": 8502
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+[
+  {"id":"q01","text":"İstanbul'da ofisten çalışacak, en az 2 yıl deneyimli frontend geliştirici arıyorum. React ve TypeScript şart.","labels":{"a01":3,"a02":3,"a06":2,"a07":2,"a03":1,"a04":1,"a05":1},"traps":["a03","a04","a05"]},
+  {"id":"q02","text":"Uzaktan çalışabilecek, Python ile dil modeli (LLM) uygulaması geliştirmiş biri arıyorum; RAG deneyimi şart.","labels":{"a08":3,"a09":3,"a12":2,"a13":2,"a14":2,"a11":1},"traps":["a10","a11"]},
+  {"id":"q03","text":"Teknofest'te İHA takımında gömülü yazılım yapmış öğrenci stajyer arıyorum.","labels":{"a15":3,"a16":2,"a17":2,"a18":1,"a20":1},"traps":["a18","a19"]},
+  {"id":"q04","text":"Node.js ve PostgreSQL ile API yazmış backend geliştirici arıyorum; Ankara'da olabilir ya da uzaktan çalışabilir.","labels":{"a21":3,"a22":3,"a13":2,"a23":1,"a24":1,"a25":1,"a06":1},"traps":["a23","a24"]},
+  {"id":"q05","text":"React Native ile geliştirdiği uygulaması mağazada yayında olan mobil geliştirici arıyorum.","labels":{"a26":3,"a30":3,"a27":1,"a28":1,"a29":1},"traps":["a27","a28"]},
+  {"id":"q06","text":"Veri analisti arıyorum: SQL şart, Power BI ya da Tableau bilmesi artı. İstanbul'da ya da uzaktan.","labels":{"a31":3,"a32":3,"a10":2,"a34":2,"a33":1},"traps":["a33"]},
+  {"id":"q07","text":"Yapay zekâ tabanlı ürünlerde çalışmış bir ürün yöneticisi arıyorum; yazılım geçmişi olsun.","labels":{"a35":3,"a38":3,"a37":1,"a36":1,"a08":1,"a09":1},"traps":["a36"]},
+  {"id":"q08","text":"Docker ve Kubernetes bilen DevOps mühendisi arıyorum, AWS deneyimi şart.","labels":{"a39":3,"a42":3,"a40":1,"a41":1,"a22":1},"traps":["a40","a41"]},
+  {"id":"q09","text":"İzmir'de çalışacak, Figma kullanan ve tasarım sistemi kurmuş bir UI/UX tasarımcı arıyorum.","labels":{"a43":3,"a44":2,"a46":1,"a45":1,"a01":1},"traps":["a45"]},
+  {"id":"q10","text":"Görüntü işleme projesi olan yeni mezun arıyorum; OpenCV ve PyTorch bilsin.","labels":{"a47":3,"a16":2,"a49":2,"a48":1},"traps":["a48"]}
+]

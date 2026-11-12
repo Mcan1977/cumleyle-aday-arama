@@ -1,0 +1,262 @@
+{
+  "id": "q03",
+  "query": "Teknofest'te İHA takımında gömülü yazılım yapmış öğrenci stajyer arıyorum.",
+  "criteria": {
+    "role": "Gömülü Yazılım Geliştirici",
+    "requiredSkills": [],
+    "skills": [
+      "Gömülü yazılım",
+      "İHA",
+      "Teknofest",
+      "Takım çalışması"
+    ],
+    "city": null,
+    "cityFlexible": true,
+    "minYears": null,
+    "candidateType": "student",
+    "summary": "Teknofest'te İHA takımında yer almış, insansız hava araçları projelerinde gömülü yazılım geliştirme deneyimine sahip, stajyer olarak çalışmaya uygun bir öğrenci aranmaktadır. Adayın mikrodenetleyiciler ve gerçek zamanlı sistemler üzerinde yazılım geliştirebilmesi, uçuş kontrol ve sensör entegrasyonu konularında bilgi sahibi olması, ayrıca takım içinde yapılandırılmış ve disiplinli bir şekilde çalışabilmesi beklenmektedir."
+  },
+  "criteriaCall": {
+    "model": "claude-haiku-5-5",
+    "usage": {
+      "inputTokens": 1542,
+      "outputTokens": 317
+    },
+    "costUsd": 0.00031270000000000007,
+    "ms": 2428
+  },
+  "embeddingCostUsd": 0.00000366,
+  "neighbors": [
+    {
+      "id": "a19",
+      "similarity": 0.7080298988787032
+    },
+    {
+      "id": "a15",
+      "similarity": 0.6916281140181053
+    },
+    {
+      "id": "a16",
+      "similarity": 0.6544250897368392
+    },
+    {
+      "id": "a17",
+      "similarity": 0.652914329576349
+    },
+    {
+      "id": "a18",
+      "similarity": 0.6181885231843686
+    },
+    {
+      "id": "a14",
+      "similarity": 0.5937410932898286
+    },
+    {
+      "id": "a30",
+      "similarity": 0.5831779456547053
+    },
+    {
+      "id": "a37",
+      "similarity": 0.5805074461312641
+    },
+    {
+      "id": "a49",
+      "similarity": 0.5729951390263458
+    },
+    {
+      "id": "a07",
+      "similarity": 0.5709202846330892
+    }
+  ],
+  "models": {
+    "haiku": {
+      "results": [
+        {
+          "id": "a15",
+          "score": 93,
+          "reason": "Teknofest Savaşan İHA takımında gömülü yazılım sorumlusu ve uçuş kontrol kartı yazılımını STM32 ve C ile geliştirmiş. Öğrenci olması ve staj arayışı isteğinizle birebir örtüşüyor."
+        },
+        {
+          "id": "a17",
+          "score": 66,
+          "reason": "STM32 ve C ile uçuş bilgisayarı yazılımı geliştirmiş ve öğrenci olması uygun. Ancak Teknofest Roket ekibinde çalışmış, İHA takımında görev almamış."
+        },
+        {
+          "id": "a18",
+          "score": 60,
+          "reason": "Altı yıllık İHA aviyonik ve gömülü yazılım deneyimi isteğinizle çok güçlü örtüşüyor. Ancak profesyonel ve kıdemli bir pozisyon arıyor, stajyer ve öğrenci aranan profille uyuşmuyor."
+        },
+        {
+          "id": "a16",
+          "score": 55,
+          "reason": "Teknofest İHA takımında görüntü işleme ve Jetson üzerinde model çalıştırma deneyimi var, ancak gömülü kart yazılımını kendisi yazmadığını belirtiyor. Gömülü yazılım tarafındaki eksik, puanı düşürüyor."
+        },
+        {
+          "id": "a49",
+          "score": 30,
+          "reason": "OpenCV ve C++ ile kamera tabanlı kalite kontrol projesi var, ancak gömülü yazılım deneyimi görünmüyor. Yeni mezun olduğu için öğrenci stajyer aramanızla da uyuşmuyor."
+        },
+        {
+          "id": "a14",
+          "score": 14,
+          "reason": "Doğal dil işleme ve Python üzerine çalışıyor, gömülü yazılım ya da İHA deneyimi profilinde görünmüyor. Uzaktan çalışabilmesi bu eksiği kapatmıyor."
+        },
+        {
+          "id": "a30",
+          "score": 10,
+          "reason": "React Native ile mobil uygulama geliştiriyor; gömülü yazılım ve İHA ile ilgili bir deneyim görünmüyor."
+        },
+        {
+          "id": "a19",
+          "score": 8,
+          "reason": "Profilinde yazılım ya da gömülü sistem becerisi yok; sponsorluk, bütçe ve sosyal medya alanında çalışıyor. Teknofest İHA takımında olsa da teknik ekipte değil."
+        },
+        {
+          "id": "a37",
+          "score": 5,
+          "reason": "Proje yöneticisi olarak Scrum ve paydaş yönetimi yapıyor, kod yazmadığını belirtiyor. Gömülü yazılım ve İHA alanında bir yeterlilik göstermiyor."
+        },
+        {
+          "id": "a07",
+          "score": 5,
+          "reason": "React ve TypeScript ile frontend geliştiriyor; gömülü yazılım, İHA ya da Teknofest ile ilgili bir deneyim profilinde görünmüyor."
+        }
+      ],
+      "call": {
+        "model": "claude-haiku-5-5",
+        "usage": {
+          "inputTokens": 4027,
+          "outputTokens": 1456
+        },
+        "costUsd": 0.0011307,
+        "ms": 6755
+      }
+    },
+    "sonnet": {
+      "results": [
+        {
+          "id": "a15",
+          "score": 97,
+          "reason": "Öğrenci ve Teknofest Savaşan İHA takımında iki yıldır gömülü yazılım sorumlusu; STM32/C ile uçuş kontrol kartı yazılımı yazmış. İsteğinle neredeyse tamamen örtüşüyor."
+        },
+        {
+          "id": "a17",
+          "score": 55,
+          "reason": "Öğrenci ve STM32/C ile Teknofest Roket'te uçuş bilgisayarı yazılımı yapmış, ama İHA takımında görev almamış. Gömülü deneyimi güçlü, İHA kriteri eksik."
+        },
+        {
+          "id": "a16",
+          "score": 40,
+          "reason": "Öğrenci ve Teknofest İHA takımında, ancak görüntü işleme tarafında; gömülü kart yazılımını kendisi yazmadığını belirtiyor. Jetson deneyimi sınırlı bir yakınlık sağlıyor."
+        },
+        {
+          "id": "a18",
+          "score": 38,
+          "reason": "İHA aviyonik gömülü yazılımında 6 yıllık deneyimi var ama öğrenci değil, kıdemli pozisyon arıyor. Teknofest deneyimi de profilinde görünmüyor."
+        },
+        {
+          "id": "a49",
+          "score": 18,
+          "reason": "Yeni mezun ve C++ bilgisi var, ancak deneyimi fabrika kamera kalite kontrolünde. Gömülü, İHA ve Teknofest deneyimi görünmüyor; öğrenci de değil."
+        },
+        {
+          "id": "a19",
+          "score": 15,
+          "reason": "Öğrenci ve Teknofest İHA takımında, ama sponsorluk ve organizasyon sorumlusu. Yazılım bilmediğini kendisi belirtiyor."
+        },
+        {
+          "id": "a14",
+          "score": 6,
+          "reason": "Öğrenci, ancak deneyimi NLP ve RAG üzerine. Gömülü yazılım, İHA ve Teknofest görünmüyor."
+        },
+        {
+          "id": "a30",
+          "score": 5,
+          "reason": "Öğrenci, ama React Native ile mobil geliştirme yapıyor. Gömülü yazılım, İHA ve Teknofest deneyimi görünmüyor."
+        },
+        {
+          "id": "a07",
+          "score": 3,
+          "reason": "React ve TypeScript ile frontend geliştiriyor; öğrenci değil. Gömülü yazılım, İHA ve Teknofest deneyimi görünmüyor."
+        },
+        {
+          "id": "a37",
+          "score": 2,
+          "reason": "Proje yöneticisi, kod yazmıyor ve öğrenci değil. Gömülü yazılım, İHA ve Teknofest deneyimi görünmüyor."
+        }
+      ],
+      "call": {
+        "model": "claude-sonnet-5-5",
+        "usage": {
+          "inputTokens": 4027,
+          "outputTokens": 920
+        },
+        "costUsd": 0.017254,
+        "ms": 6715
+      }
+    },
+    "opus": {
+      "results": [
+        {
+          "id": "a15",
+          "score": 96,
+          "reason": "İki yıldır Teknofest Savaşan İHA takımında gömülü yazılım sorumlusu; STM32 ve C ile uçuş kontrol kartı yazılımı yazmış. Öğrenci ve yaz stajı arıyor."
+        },
+        {
+          "id": "a17",
+          "score": 62,
+          "reason": "STM32 ve C ile Teknofest Roket uçuş bilgisayarı yazılımı yazmış, gömülü yazılım deneyimi güçlü. Ancak İHA takımında görev almamış."
+        },
+        {
+          "id": "a16",
+          "score": 50,
+          "reason": "Teknofest İHA takımında ama görüntü işleme tarafında; gömülü kart yazılımını kendisinin yazmadığını belirtiyor. Jetson üzerinde model çalıştırma deneyimi kısmen ilgili."
+        },
+        {
+          "id": "a18",
+          "score": 45,
+          "reason": "İHA aviyonik yazılımında 6 yıllık güçlü deneyimi var. Ancak öğrenci değil ve kıdemli pozisyon arıyor, stajyer arayışına uymuyor."
+        },
+        {
+          "id": "a19",
+          "score": 20,
+          "reason": "Teknofest İHA takımında ama organizasyon ve sponsorluk sorumlusu. Yazılım bilmediğini belirtiyor."
+        },
+        {
+          "id": "a49",
+          "score": 15,
+          "reason": "C++ ve elektronik geçmişi var ancak gömülü yazılım, İHA veya Teknofest deneyimi görünmüyor. Öğrenci değil, yeni mezun."
+        },
+        {
+          "id": "a14",
+          "score": 8,
+          "reason": "Öğrenci ama doğal dil işleme odaklı. Gömülü yazılım, İHA veya Teknofest deneyimi görünmüyor."
+        },
+        {
+          "id": "a30",
+          "score": 6,
+          "reason": "Öğrenci ama mobil geliştirme odaklı. Gömülü yazılım ve İHA deneyimi görünmüyor."
+        },
+        {
+          "id": "a07",
+          "score": 4,
+          "reason": "Frontend geliştirici, öğrenci değil. Gömülü yazılım veya İHA deneyimi görünmüyor."
+        },
+        {
+          "id": "a37",
+          "score": 3,
+          "reason": "Kod yazmayan deneyimli bir proje yöneticisi. Gömülü yazılım ve öğrenci kriterleriyle örtüşmüyor."
+        }
+      ],
+      "call": {
+        "model": "claude-opus-5-5",
+        "usage": {
+          "inputTokens": 4027,
+          "outputTokens": 820
+        },
+        "costUsd": 0.032508,
+        "ms": 7635
+      }
+    }
+  }
+}

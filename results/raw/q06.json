@@ -1,0 +1,262 @@
+{
+  "id": "q06",
+  "query": "Veri analisti arıyorum: SQL şart, Power BI ya da Tableau bilmesi artı. İstanbul'da ya da uzaktan.",
+  "criteria": {
+    "role": "Veri analisti",
+    "requiredSkills": [
+      "SQL"
+    ],
+    "skills": [
+      "Power BI",
+      "Tableau"
+    ],
+    "city": "İstanbul",
+    "cityFlexible": true,
+    "minYears": null,
+    "candidateType": "any",
+    "summary": "SQL konusunda güçlü, verileri analiz edip Power BI veya Tableau ile görselleştirebilen, İstanbul'da ya da uzaktan çalışabilecek bir veri analisti aranmaktadır. Adayın veri sorgulama, raporlama ve iş birimlerine içgörü sunma konularında deneyimli olması beklenmektedir."
+  },
+  "criteriaCall": {
+    "model": "claude-haiku-5-5",
+    "usage": {
+      "inputTokens": 1555,
+      "outputTokens": 211
+    },
+    "costUsd": 0.000261,
+    "ms": 1764
+  },
+  "embeddingCostUsd": 0.00000258,
+  "neighbors": [
+    {
+      "id": "a31",
+      "similarity": 0.7870960326675375
+    },
+    {
+      "id": "a32",
+      "similarity": 0.7716896036641037
+    },
+    {
+      "id": "a33",
+      "similarity": 0.7309908606710351
+    },
+    {
+      "id": "a34",
+      "similarity": 0.7122558996753006
+    },
+    {
+      "id": "a10",
+      "similarity": 0.6739489135830692
+    },
+    {
+      "id": "a08",
+      "similarity": 0.6536976201308567
+    },
+    {
+      "id": "a12",
+      "similarity": 0.6311745320307148
+    },
+    {
+      "id": "a38",
+      "similarity": 0.6171488007797905
+    },
+    {
+      "id": "a11",
+      "similarity": 0.6123232189219169
+    },
+    {
+      "id": "a13",
+      "similarity": 0.599360232465194
+    }
+  ],
+  "models": {
+    "haiku": {
+      "results": [
+        {
+          "id": "a31",
+          "score": 92,
+          "reason": "Profilinde SQL ve Power BI birlikte görünüyor; İstanbul'da çalışıyor ve 3 yıllık veri analisti deneyimi var. Mağaza performans panosu projesi isteğinle birebir örtüşüyor."
+        },
+        {
+          "id": "a32",
+          "score": 88,
+          "reason": "SQL ve Tableau yetenekleri profilinde açıkça yer alıyor, 4 yıllık deneyimi ve uzaktan çalışabilmesi isteğinle uyumlu. Gelir panoları projesi Tableau ve SQL kullanımını gösteriyor."
+        },
+        {
+          "id": "a34",
+          "score": 55,
+          "reason": "SQL becerisi var ancak profilinde analiz ya da pano çalışması olmadığını, veri hattı kurduğunu belirtiyor. Power BI veya Tableau görünmüyor; Kocaeli'de ve uzaktan çalışabiliyor."
+        },
+        {
+          "id": "a10",
+          "score": 52,
+          "reason": "SQL kullanıyor ve 4 yıllık veri deneyimi var, ancak profilinde Power BI veya Tableau görünmüyor. Asıl alanı tahmin modelleri olduğu için analist rolüne tam oturmuyor."
+        },
+        {
+          "id": "a33",
+          "score": 45,
+          "reason": "Power BI ve Excel konusunda güçlü, ancak profilinde SQL'i açıkça kullanmadığı yazıyor; bu şartın karşılanmadığı görülüyor. İstanbul'da ve 5 yıllık raporlama deneyimi var."
+        },
+        {
+          "id": "a11",
+          "score": 25,
+          "reason": "Profilinde SQL görünmüyor; PostgreSQL ve FastAPI ile backend geliştirme yapıyor. Veri analisti rolüne uygun bir deneyimi bulunmuyor."
+        },
+        {
+          "id": "a13",
+          "score": 22,
+          "reason": "Profilinde SQL görünmüyor; PostgreSQL üzerinde sunucu tarafı geliştirme yapıyor. Analist deneyimi ve Power BI ya da Tableau bilgisi yok."
+        },
+        {
+          "id": "a08",
+          "score": 20,
+          "reason": "Profilinde SQL görünmüyor; yapay zekâ mühendisi olarak RAG ve dil modeli uygulamaları geliştiriyor. Veri analisti rolüyle ilgisi zayıf."
+        },
+        {
+          "id": "a12",
+          "score": 18,
+          "reason": "Profilinde SQL, Power BI ya da Tableau görünmüyor; dil modeli ve RAG alanında çalışıyor. Yalnızca ofisten çalışmak istediği için uzaktan şartın da dışında kalıyor."
+        },
+        {
+          "id": "a38",
+          "score": 15,
+          "reason": "Profilinde SQL veya Power BI ya da Tableau yok; ürün sahibi olarak çalışıyor. Veri analizi yetkinliği yazıyor ancak analist rolüne uygun değil."
+        }
+      ],
+      "call": {
+        "model": "claude-haiku-5-5",
+        "usage": {
+          "inputTokens": 3973,
+          "outputTokens": 1615
+        },
+        "costUsd": 0.0012048,
+        "ms": 7473
+      }
+    },
+    "sonnet": {
+      "results": [
+        {
+          "id": "a31",
+          "score": 93,
+          "reason": "İstanbul'da, 3 yıllık veri analisti; SQL ve Power BI birlikte görünüyor, mağaza performans panosu projesi var. Şart ve artı yeteneklerin tamamını karşılıyor."
+        },
+        {
+          "id": "a32",
+          "score": 90,
+          "reason": "SQL ve Tableau deneyimi var, 4 yıldır raporlama yapıyor. Ankara'da ama uzaktan çalışabiliyor, bu yüzden şehir sorun değil."
+        },
+        {
+          "id": "a10",
+          "score": 58,
+          "reason": "SQL biliyor ve 4 yıldır perakende verisiyle çalışıyor, uzaktan çalışabilir. Ağırlığı tahmin modellerinde, Power BI/Tableau görünmüyor ve klasik analist rolünden uzak."
+        },
+        {
+          "id": "a34",
+          "score": 50,
+          "reason": "SQL deneyimi var ve uzaktan çalışabiliyor. Ancak veri mühendisi, analiz ve pano tarafında çalışmadığını belirtiyor; Power BI veya Tableau da görünmüyor."
+        },
+        {
+          "id": "a33",
+          "score": 40,
+          "reason": "İstanbul'da ve Power BI biliyor ama profilinde SQL açıkça yok, SQL yazmadığını belirtiyor. Şart koşulan SQL görünmediği için puan sınırlandı."
+        },
+        {
+          "id": "a38",
+          "score": 25,
+          "reason": "Veri analizi yeteneği var ama ürün sahibi; SQL görünmüyor. Power BI veya Tableau da yok."
+        },
+        {
+          "id": "a11",
+          "score": 22,
+          "reason": "PostgreSQL ile servis yazıyor ancak SQL'i analiz için kullandığı görünmüyor. Veri analizi veya pano deneyimi yok."
+        },
+        {
+          "id": "a13",
+          "score": 22,
+          "reason": "PostgreSQL kullanıyor ama profilinde SQL açıkça yok ve rolü yazılım geliştirme. Analiz veya pano aracı deneyimi görünmüyor."
+        },
+        {
+          "id": "a08",
+          "score": 8,
+          "reason": "Dil modeli ve RAG odaklı bir mühendis. Profilinde şart olan SQL ve analiz deneyimi görünmüyor."
+        },
+        {
+          "id": "a12",
+          "score": 6,
+          "reason": "İstanbul'da ama dil modeli mühendisi; SQL, Power BI veya Tableau profilinde görünmüyor. Veri analizi deneyimi yok."
+        }
+      ],
+      "call": {
+        "model": "claude-sonnet-5-5",
+        "usage": {
+          "inputTokens": 3973,
+          "outputTokens": 862
+        },
+        "costUsd": 0.016566,
+        "ms": 6404
+      }
+    },
+    "opus": {
+      "results": [
+        {
+          "id": "a32",
+          "score": 88,
+          "reason": "4 yıllık iş zekâsı deneyiminde SQL, dbt ve Tableau ile gelir panoları kurmuş. Ankara'da ama uzaktan çalışabiliyor."
+        },
+        {
+          "id": "a31",
+          "score": 82,
+          "reason": "Veri analisti unvanıyla 3 yıldır SQL ve Power BI ile mağaza performans panosu hazırlıyor, İstanbul'da. Uzaktan çalışmıyor ama İstanbul'da olduğu için bu sorun değil."
+        },
+        {
+          "id": "a10",
+          "score": 58,
+          "reason": "SQL ve perakende verisiyle 4 yıllık analitik deneyimi var, uzaktan çalışabiliyor. Ancak odağı tahmin modelleri; Power BI veya Tableau profilinde görünmüyor."
+        },
+        {
+          "id": "a34",
+          "score": 55,
+          "reason": "Güçlü SQL ve Snowflake deneyimi var ve uzaktan çalışabiliyor. Ancak veri mühendisi; analiz ve pano tarafında çalışmamış, Power BI/Tableau görünmüyor."
+        },
+        {
+          "id": "a33",
+          "score": 45,
+          "reason": "5 yıllık raporlama deneyimi ve Power BI panoları var. Ancak şart olan SQL'i yazmadığını kendisi belirtiyor."
+        },
+        {
+          "id": "a38",
+          "score": 30,
+          "reason": "Ürün sahibi olarak veri analizi ve deney ölçütleriyle çalışmış, uzaktan çalışabiliyor. Ancak şart olan SQL profilinde görünmüyor, Power BI/Tableau da yok."
+        },
+        {
+          "id": "a11",
+          "score": 22,
+          "reason": "PostgreSQL ile backend servisleri yazıyor, uzaktan çalışabiliyor. Veri analizi veya açıkça SQL analizi ve pano deneyimi görünmüyor."
+        },
+        {
+          "id": "a13",
+          "score": 20,
+          "reason": "PostgreSQL kullanan full-stack geliştirici, uzaktan çalışabiliyor. Analist rolü, SQL analizi ve Power BI/Tableau deneyimi profilinde görünmüyor."
+        },
+        {
+          "id": "a08",
+          "score": 12,
+          "reason": "Dil modeli tabanlı uygulamalar geliştiriyor. SQL ve veri analizi/raporlama deneyimi profilinde görünmüyor."
+        },
+        {
+          "id": "a12",
+          "score": 10,
+          "reason": "Bankada RAG ve ince ayar üzerine çalışıyor. SQL ve pano araçları profilinde görünmüyor."
+        }
+      ],
+      "call": {
+        "model": "claude-opus-5-5",
+        "usage": {
+          "inputTokens": 3973,
+          "outputTokens": 896
+        },
+        "costUsd": 0.033812,
+        "ms": 8852
+      }
+    }
+  }
+}

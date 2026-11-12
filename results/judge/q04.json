@@ -1,0 +1,37 @@
+{
+  "id": "q04",
+  "blind": {
+    "A": "haiku",
+    "B": "opus",
+    "C": "sonnet"
+  },
+  "scores": [
+    {
+      "system": "A",
+      "ranking": 9,
+      "reasons": 6,
+      "note": "Sıralamada koşulları karşılayan üç aday üstte ve eksikler geride, ancak bazı gerekçeler isteğe uymuyor: a21 için gereksiz bir 'uzaktan çalışmıyor' uyarısı var, a13 için alakasız Python/RAG yorumları yapılmış, a04'ün Ankara'da ofiste çalışması da yanlış biçimde uyumsuzluk sayılmış."
+    },
+    {
+      "system": "B",
+      "ranking": 9,
+      "reasons": 9,
+      "note": "Koşulları karşılayan a21, a22 ve a13 üstte, konum dışı kalan a23 dördüncü sırada; eksik Node.js ya da PostgreSQL şartı her adayda profile dayalı, kısa ve açık biçimde belirtilmiş."
+    },
+    {
+      "system": "C",
+      "ranking": 9,
+      "reasons": 9,
+      "note": "Sıralama isteğe uygun ve eksik koşullar açıkça yazılmış; gerekçeler profile dayalı ve kısa, yalnızca a08 için 'backend API odağı yok' ifadesi biraz genelleyici."
+    }
+  ],
+  "call": {
+    "model": "claude-opus-5-5",
+    "usage": {
+      "inputTokens": 6783,
+      "outputTokens": 873
+    },
+    "costUsd": 0.044592,
+    "ms": 9818
+  }
+}

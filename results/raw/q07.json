@@ -1,0 +1,261 @@
+{
+  "id": "q07",
+  "query": "Yapay zekâ tabanlı ürünlerde çalışmış bir ürün yöneticisi arıyorum; yazılım geçmişi olsun.",
+  "criteria": {
+    "role": "Ürün Yöneticisi",
+    "requiredSkills": [
+      "Yapay zekâ tabanlı ürünlerde deneyim"
+    ],
+    "skills": [
+      "Yazılım geliştirme geçmişi"
+    ],
+    "city": null,
+    "cityFlexible": true,
+    "minYears": null,
+    "candidateType": "professional",
+    "summary": "Yapay zekâ tabanlı ürünlerde çalışmış, ürün yönetimi rolünü üstlenebilecek deneyimli bir ürün yöneticisi. Yapay zekâ ürünlerinin yaşam döngüsünü, kullanıcı ihtiyaçlarını ve teknik ekiplerle iş birliğini iyi bilen; yazılım geliştirme geçmişi sayesinde mühendislik ekipleriyle etkin iletişim kurabilen bir aday."
+  },
+  "criteriaCall": {
+    "model": "claude-haiku-5-5",
+    "usage": {
+      "inputTokens": 1556,
+      "outputTokens": 287
+    },
+    "costUsd": 0.0002991,
+    "ms": 1988
+  },
+  "embeddingCostUsd": 0.00000336,
+  "neighbors": [
+    {
+      "id": "a36",
+      "similarity": 0.6329919623626873
+    },
+    {
+      "id": "a35",
+      "similarity": 0.6125349893236972
+    },
+    {
+      "id": "a38",
+      "similarity": 0.5978180814786058
+    },
+    {
+      "id": "a08",
+      "similarity": 0.5929197783663706
+    },
+    {
+      "id": "a32",
+      "similarity": 0.5732765481768336
+    },
+    {
+      "id": "a37",
+      "similarity": 0.5683496416379248
+    },
+    {
+      "id": "a07",
+      "similarity": 0.5572158304294255
+    },
+    {
+      "id": "a44",
+      "similarity": 0.5483818388325736
+    },
+    {
+      "id": "a18",
+      "similarity": 0.5442537711625022
+    },
+    {
+      "id": "a43",
+      "similarity": 0.541262829281012
+    }
+  ],
+  "models": {
+    "haiku": {
+      "results": [
+        {
+          "id": "a35",
+          "score": 90,
+          "reason": "Profilinde LLM tabanlı müşteri destek asistanının yol haritasını yönettiği ve çözüm oranını %31'den %52'ye çıkardığı görünüyor, bu da aradığınız yapay zekâ ürünü deneyimiyle birebir örtüşüyor. Üç yıl yazılım geliştirici olarak çalışması ve İstanbul'da uzaktan çalışabilmesi de isteğinize uygun."
+        },
+        {
+          "id": "a38",
+          "score": 80,
+          "reason": "Makine öğrenmesi tabanlı öneri motorunun ölçütlerini ve deney planını yönettiği, sepete ekleme oranını %9 artırdığı profilinde yazıyor. Ürün sahibi unvanı ve iki yıllık backend geliştirme geçmişi de aradığınız profille uyumlu, ancak unvanı ürün yöneticisi değil."
+        },
+        {
+          "id": "a37",
+          "score": 55,
+          "reason": "Bir bankanın yapay zekâ destekli sohbet botunun teslimat ve koordinasyonunu yürüttüğü görünüyor, ancak bu bir proje yöneticisi rolü ve ürün yönetimi deneyimi profilinde açıkça yer almıyor. Kod yazmadığını belirtmesi yazılım geçmişi kriterini zayıflatıyor."
+        },
+        {
+          "id": "a08",
+          "score": 45,
+          "reason": "Dil modeli tabanlı uygulamalar geliştirdiği ve RAG projeleri yaptığı görünüyor, ancak profili bir yapay zekâ mühendisi olduğunu gösteriyor ve ürün yöneticiliği deneyimi yok. Yazılım geçmişi güçlü, fakat aradığınız ürün yöneticisi rolüne uymuyor."
+        },
+        {
+          "id": "a36",
+          "score": 25,
+          "reason": "Profilinde ürün yöneticiliği deneyimi var, ancak yapay zekâ tabanlı bir üründe çalışmadığı ve yazılım geliştirmediği açıkça belirtiyor. Her iki kriter de karşılanmıyor."
+        },
+        {
+          "id": "a32",
+          "score": 20,
+          "reason": "Veri raporlama ve iş zekâsı alanında çalıştığı görünüyor, ancak ürün yöneticiliği ve yapay zekâ tabanlı ürün deneyimi profilinde yok. Yazılım geçmişi de belirgin değil."
+        },
+        {
+          "id": "a44",
+          "score": 15,
+          "reason": "Ürün tasarımcısı olarak beş yıl deneyimi var, fakat ürün yöneticiliği, yapay zekâ ürünü ve yazılım geçmişi profilinde görünmüyor."
+        },
+        {
+          "id": "a43",
+          "score": 12,
+          "reason": "UI/UX tasarımcısı olduğu ve İzmir'de çalıştığı görünüyor, ancak ürün yöneticiliği, yapay zekâ ürünü deneyimi ve yazılım geçmişi profilinde yok."
+        },
+        {
+          "id": "a07",
+          "score": 10,
+          "reason": "Frontend geliştirici olarak bir yıllık deneyimi var, ancak ürün yöneticiliği ve yapay zekâ tabanlı ürün deneyimi profilinde görünmüyor. Bu rol isteğinizle uyuşmuyor."
+        },
+        {
+          "id": "a18",
+          "score": 10,
+          "reason": "Savunma sanayisinde gömülü yazılım ve aviyonik alanında çalıştığı görünüyor, ancak ürün yöneticiliği ve yapay zekâ ürünü deneyimi profilinde yok. Rolü isteğinizle uyuşmuyor."
+        }
+      ],
+      "call": {
+        "model": "claude-haiku-5-5",
+        "usage": {
+          "inputTokens": 4081,
+          "outputTokens": 1862
+        },
+        "costUsd": 0.0013391,
+        "ms": 8534
+      }
+    },
+    "sonnet": {
+      "results": [
+        {
+          "id": "a35",
+          "score": 96,
+          "reason": "5 yıllık ürün yöneticisi; dil modeli tabanlı müşteri destek asistanının yol haritasını yönetmiş, çözüm oranını yüzde 31'den 52'ye çıkarmış. 3 yıl yazılım geliştiricilik geçmişi de isteğinle örtüşüyor."
+        },
+        {
+          "id": "a38",
+          "score": 84,
+          "reason": "Ürün sahibi olarak makine öğrenmesi tabanlı öneri motorunu yönetmiş, sepete ekleme oranı yüzde 9 artmış. 2 yıl backend geliştirici geçmişi var; unvanı tam ürün yöneticisi değil."
+        },
+        {
+          "id": "a37",
+          "score": 50,
+          "reason": "Bankanın yapay zekâ destekli sohbet botunun teslimatını yürütmüş ama proje yöneticisi, ürün yöneticisi değil. Kod yazmıyor, yazılım geliştirme geçmişi yok."
+        },
+        {
+          "id": "a08",
+          "score": 42,
+          "reason": "Dil modeli tabanlı uygulamalar geliştiriyor ve yazılım geçmişi güçlü. Ürün yöneticisi deneyimi profilinde görünmüyor, rol uyumsuz."
+        },
+        {
+          "id": "a36",
+          "score": 30,
+          "reason": "6 yıllık ürün yöneticisi ama yapay zekâ tabanlı üründe çalışmadığını ve yazılım geçmişi olmadığını kendisi belirtiyor. Şart ve artı kriterin ikisi de eksik."
+        },
+        {
+          "id": "a44",
+          "score": 14,
+          "reason": "Ürün tasarımcısı; ürün yöneticiliği ve yapay zekâ tabanlı ürün deneyimi profilinde görünmüyor."
+        },
+        {
+          "id": "a43",
+          "score": 12,
+          "reason": "UI/UX tasarımcı; ürün yöneticiliği ve yapay zekâ tabanlı ürün deneyimi profilinde görünmüyor."
+        },
+        {
+          "id": "a32",
+          "score": 8,
+          "reason": "İş zekâsı uzmanı; ürün yöneticiliği ve yapay zekâ tabanlı ürün deneyimi profilinde görünmüyor."
+        },
+        {
+          "id": "a07",
+          "score": 6,
+          "reason": "1 yıllık frontend geliştirici; ürün yöneticiliği ve yapay zekâ ürünü deneyimi profilinde görünmüyor."
+        },
+        {
+          "id": "a18",
+          "score": 4,
+          "reason": "Gömülü yazılım mühendisi, İHA aviyonik alanında çalışıyor. Ürün yönetimi ve yapay zekâ ürünü deneyimi görünmüyor."
+        }
+      ],
+      "call": {
+        "model": "claude-sonnet-5-5",
+        "usage": {
+          "inputTokens": 4081,
+          "outputTokens": 930
+        },
+        "costUsd": 0.017462,
+        "ms": 6253
+      }
+    },
+    "opus": {
+      "results": [
+        {
+          "id": "a35",
+          "score": 95,
+          "reason": "Dil modeli tabanlı müşteri destek asistanının yol haritasını yönetmiş ve çözüm oranını %31'den %52'ye çıkarmış. Üç yıllık yazılım geliştirici geçmişi de var ve uzaktan çalışabiliyor."
+        },
+        {
+          "id": "a38",
+          "score": 85,
+          "reason": "Makine öğrenmesi tabanlı öneri motorunun ürün sahipliğini yapmış, iki yıl backend geliştirici geçmişi var. Unvanı ürün yöneticisi değil, ürün sahibi."
+        },
+        {
+          "id": "a37",
+          "score": 55,
+          "reason": "Yapay zekâ destekli sohbet botu projesinin teslimatını yönetmiş ancak ürün yöneticisi değil, proje yöneticisi. Yazılım geliştirme geçmişi yok, kod yazmadığını belirtiyor."
+        },
+        {
+          "id": "a08",
+          "score": 50,
+          "reason": "LLM ve RAG tabanlı uygulamalarda güçlü yazılım deneyimi var. Ancak ürün yönetimi deneyimi profilinde görünmüyor."
+        },
+        {
+          "id": "a36",
+          "score": 30,
+          "reason": "Altı yıllık ürün yöneticisi ama yapay zekâ tabanlı ürün deneyimi şartı görünmüyor; kendisi de çalışmadığını belirtiyor. Yazılım geçmişi de yok."
+        },
+        {
+          "id": "a32",
+          "score": 12,
+          "reason": "SQL ve raporlama deneyimi var ama ürün yönetimi ve yapay zekâ ürünü deneyimi görünmüyor."
+        },
+        {
+          "id": "a44",
+          "score": 12,
+          "reason": "Ürün tasarımcısı; ürün yönetimi ve yapay zekâ ürünü deneyimi profilinde görünmüyor."
+        },
+        {
+          "id": "a43",
+          "score": 10,
+          "reason": "UI/UX tasarımcısı; ürün yönetimi ve yapay zekâ ürünü deneyimi görünmüyor."
+        },
+        {
+          "id": "a18",
+          "score": 8,
+          "reason": "Gömülü yazılım geçmişi var ancak ürün yönetimi ve yapay zekâ ürünü deneyimi görünmüyor."
+        },
+        {
+          "id": "a07",
+          "score": 6,
+          "reason": "Bir yıllık frontend geliştirici; ürün yönetimi ve yapay zekâ ürünü deneyimi görünmüyor."
+        }
+      ],
+      "call": {
+        "model": "claude-opus-5-5",
+        "usage": {
+          "inputTokens": 4081,
+          "outputTokens": 844
+        },
+        "costUsd": 0.033204,
+        "ms": 7351
+      }
+    }
+  }
+}

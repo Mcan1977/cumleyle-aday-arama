@@ -1,0 +1,262 @@
+{
+  "id": "q04",
+  "query": "Node.js ve PostgreSQL ile API yazmış backend geliştirici arıyorum; Ankara'da olabilir ya da uzaktan çalışabilir.",
+  "criteria": {
+    "role": "Backend Geliştirici",
+    "requiredSkills": [
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "skills": [
+      "API geliştirme"
+    ],
+    "city": "Ankara",
+    "cityFlexible": true,
+    "minYears": null,
+    "candidateType": "any",
+    "summary": "Node.js kullanarak API geliştirmiş, PostgreSQL ile veritabanı tasarımı ve sorgulama konusunda deneyimli bir backend geliştirici. Ankara'da çalışabilen ya da uzaktan görev alabilen, sağlam ve ölçeklenebilir sunucu tarafı sistemler kurabilen bir aday aranmaktadır."
+  },
+  "criteriaCall": {
+    "model": "claude-haiku-5-5",
+    "usage": {
+      "inputTokens": 1560,
+      "outputTokens": 225
+    },
+    "costUsd": 0.0002685,
+    "ms": 1808
+  },
+  "embeddingCostUsd": 0.00000238,
+  "neighbors": [
+    {
+      "id": "a22",
+      "similarity": 0.731669868893011
+    },
+    {
+      "id": "a13",
+      "similarity": 0.7254208210449096
+    },
+    {
+      "id": "a21",
+      "similarity": 0.7222116935684536
+    },
+    {
+      "id": "a25",
+      "similarity": 0.7045406374313677
+    },
+    {
+      "id": "a11",
+      "similarity": 0.6960903685615039
+    },
+    {
+      "id": "a23",
+      "similarity": 0.6950425718632931
+    },
+    {
+      "id": "a24",
+      "similarity": 0.6731362046687615
+    },
+    {
+      "id": "a06",
+      "similarity": 0.6656050937020448
+    },
+    {
+      "id": "a08",
+      "similarity": 0.6593569574271292
+    },
+    {
+      "id": "a04",
+      "similarity": 0.6345561475845599
+    }
+  ],
+  "models": {
+    "haiku": {
+      "results": [
+        {
+          "id": "a21",
+          "score": 93,
+          "reason": "Node.js ve PostgreSQL ile günde 300 bin istek karşılayan sevkiyat API'si geliştirmiş ve 4 yıl deneyimi var. Ankara'da çalıştığı için konum isteğinizle de örtüşüyor, ancak uzaktan çalışmıyor."
+        },
+        {
+          "id": "a13",
+          "score": 90,
+          "reason": "Node.js ve PostgreSQL ile abonelik API'si yazmış, uzaktan çalışabiliyor. Antalya'da olması ve Python kullanmaması isteğinizle çelişmiyor."
+        },
+        {
+          "id": "a22",
+          "score": 88,
+          "reason": "Node.js, NestJS ve PostgreSQL ile ders ve ödeme API'si geliştirmiş, uzaktan çalışabiliyor; isteğinizdeki şartların tamamı profilinde görünüyor. Konumu Bursa olsa da uzaktan çalışabildiği için şehir engeli yok."
+        },
+        {
+          "id": "a23",
+          "score": 55,
+          "reason": "Node.js ve PostgreSQL deneyimi isteğinizle birebir örtüşüyor ve 5 yıl deneyimi var. Ancak yalnızca İstanbul'da ofiste çalışmak istediğini ve uzaktan çalışmayı düşünmediğini belirtmiş."
+        },
+        {
+          "id": "a11",
+          "score": 35,
+          "reason": "Node.js profilinde görünmüyor; Python ve FastAPI ile çalışıyor, PostgreSQL ve API deneyimi var. Dil modeli deneyimi belge araması ya da RAG içermediği için bu yönde bir artı sağlamıyor."
+        },
+        {
+          "id": "a06",
+          "score": 35,
+          "reason": "Node.js ile sunucu yazıyor ancak PostgreSQL yerine MongoDB kullanıyor, bu da PostgreSQL şartının karşılanmadığı anlamına geliyor. İstanbul'da ofiste çalışmak istediği için konum da uyumsuz."
+        },
+        {
+          "id": "a25",
+          "score": 30,
+          "reason": "Profilinde Node.js görünmüyor; Python ve Django kullanıyor, bu da şart koştuğunuz Node.js eksikliği anlamına geliyor. PostgreSQL ve API deneyimi olsa da puanı düşük tutuldu."
+        },
+        {
+          "id": "a08",
+          "score": 30,
+          "reason": "Profilinde Node.js görünmüyor; Python, LangChain ve pgvector ile çalışıyor. PostgreSQL de açıkça listelenmiyor, yalnızca pgvector eklentisi var, bu yüzden iki zorunlu şart da eksik."
+        },
+        {
+          "id": "a24",
+          "score": 25,
+          "reason": "Profilinde Node.js ya da JavaScript sunucu deneyimi yok; Java ve Spring Boot ile çalışıyor. PostgreSQL deneyimi olsa da zorunlu Node.js şartı karşılanmıyor."
+        },
+        {
+          "id": "a04",
+          "score": 10,
+          "reason": "Frontend geliştirici olarak React ve TypeScript kullanıyor; profilinde Node.js ve PostgreSQL görünmüyor. Ayrıca Ankara'da ofiste çalışmak istediği için backend ihtiyacınızla uyuşmuyor."
+        }
+      ],
+      "call": {
+        "model": "claude-haiku-5-5",
+        "usage": {
+          "inputTokens": 3988,
+          "outputTokens": 1890
+        },
+        "costUsd": 0.0013438,
+        "ms": 9132
+      }
+    },
+    "sonnet": {
+      "results": [
+        {
+          "id": "a21",
+          "score": 96,
+          "reason": "Ankara'da, Node.js ve PostgreSQL ile günde 300 bin istek karşılayan sevkiyat API'si yazmış. 4 yıl deneyimi var, tüm kriterler karşılanıyor."
+        },
+        {
+          "id": "a22",
+          "score": 84,
+          "reason": "Node.js, NestJS ve PostgreSQL ile ders ve ödeme API'si yazmış, uzaktan çalışabiliyor (Bursa). Şartların ikisi de görünüyor, 3 yıl deneyimi var."
+        },
+        {
+          "id": "a13",
+          "score": 82,
+          "reason": "Node.js ve PostgreSQL ile abonelik API'si yazmış, uzaktan çalışabiliyor (Antalya). Full-stack ama sunucu ağırlıklı çalışıyor."
+        },
+        {
+          "id": "a23",
+          "score": 60,
+          "reason": "Node.js ve PostgreSQL ile ödeme servisi yazmış, 5 yıl deneyimi var. Yalnızca İstanbul'da ofisten çalışıyor, Ankara ya da uzaktan seçeneği yok."
+        },
+        {
+          "id": "a25",
+          "score": 45,
+          "reason": "PostgreSQL ile API yazmış, uzaktan çalışabiliyor ama profilinde Node.js görünmüyor (Django/Python kullanıyor)."
+        },
+        {
+          "id": "a11",
+          "score": 42,
+          "reason": "PostgreSQL ve FastAPI ile servis yazmış, uzaktan çalışıyor ama profilinde Node.js görünmüyor."
+        },
+        {
+          "id": "a06",
+          "score": 38,
+          "reason": "Node.js ve Express deneyimi var ama profilinde PostgreSQL görünmüyor (MongoDB kullanıyor). İstanbul'da ve uzaktan çalışmıyor."
+        },
+        {
+          "id": "a24",
+          "score": 30,
+          "reason": "Ankara'da ve PostgreSQL deneyimi var ama profilinde Node.js yok; Java/Spring Boot ile çalışıyor."
+        },
+        {
+          "id": "a08",
+          "score": 22,
+          "reason": "Ankara'da ve uzaktan çalışabiliyor ama yapay zekâ mühendisi. Profilinde Node.js görünmüyor ve backend API odağı yok."
+        },
+        {
+          "id": "a04",
+          "score": 8,
+          "reason": "Ankara'da ama frontend geliştirici; profilinde Node.js, PostgreSQL ya da backend API deneyimi görünmüyor."
+        }
+      ],
+      "call": {
+        "model": "claude-sonnet-5-5",
+        "usage": {
+          "inputTokens": 3988,
+          "outputTokens": 847
+        },
+        "costUsd": 0.016446,
+        "ms": 6169
+      }
+    },
+    "opus": {
+      "results": [
+        {
+          "id": "a21",
+          "score": 95,
+          "reason": "Ankara'da, 4 yıllık deneyimle Node.js ve PostgreSQL kullanarak günde 300 bin istek karşılayan bir sevkiyat API'si yazmış. Redis ve Docker deneyimi de artı."
+        },
+        {
+          "id": "a22",
+          "score": 90,
+          "reason": "Node.js (NestJS) ve PostgreSQL ile bir ders ve ödeme API'si geliştirmiş. Bursa'da olsa da uzaktan çalışabiliyor."
+        },
+        {
+          "id": "a13",
+          "score": 88,
+          "reason": "Node.js ve PostgreSQL ile bir abonelik ve faturalama API'si yazmış, sunucu tarafı ağırlıklı çalışıyor. Antalya'da ama uzaktan çalışabiliyor."
+        },
+        {
+          "id": "a23",
+          "score": 55,
+          "reason": "Node.js ve PostgreSQL ile bir ödeme servisi deneyimi var. Ancak yalnızca İstanbul'da ofisten çalışıyor; Ankara'ya gelmeyi ya da uzaktan çalışmayı düşünmüyor."
+        },
+        {
+          "id": "a25",
+          "score": 40,
+          "reason": "PostgreSQL ile bir API yazmış ve uzaktan çalışabiliyor. Ancak şart olan Node.js profilinde görünmüyor; Python/Django kullanıyor."
+        },
+        {
+          "id": "a11",
+          "score": 38,
+          "reason": "PostgreSQL ve FastAPI ile servis yazmış, uzaktan çalışabiliyor. Ancak şart olan Node.js profilinde görünmüyor."
+        },
+        {
+          "id": "a24",
+          "score": 35,
+          "reason": "Ankara'da ve PostgreSQL ile servis deneyimi var. Ancak Node.js ile sunucu geliştirmediğini kendisi belirtiyor."
+        },
+        {
+          "id": "a06",
+          "score": 30,
+          "reason": "Node.js ile sunucu yazmış, ancak PostgreSQL yerine MongoDB kullanıyor. İstanbul'da ve uzaktan çalışmıyor."
+        },
+        {
+          "id": "a08",
+          "score": 22,
+          "reason": "Ankara'da ve uzaktan çalışabiliyor, pgvector deneyimi var. Ancak Node.js profilinde görünmüyor; yapay zekâ odaklı Python geliştiricisi."
+        },
+        {
+          "id": "a04",
+          "score": 8,
+          "reason": "Frontend geliştirici; profilinde Node.js ve PostgreSQL görünmüyor."
+        }
+      ],
+      "call": {
+        "model": "claude-opus-5-5",
+        "usage": {
+          "inputTokens": 3988,
+          "outputTokens": 866
+        },
+        "costUsd": 0.033272,
+        "ms": 8105
+      }
+    }
+  }
+}

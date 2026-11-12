@@ -1,0 +1,37 @@
+{
+  "id": "q05",
+  "blind": {
+    "A": "opus",
+    "B": "sonnet",
+    "C": "haiku"
+  },
+  "scores": [
+    {
+      "system": "A",
+      "ranking": 9,
+      "reasons": 9,
+      "note": "Her iki koşulu karşılayan a26 ve a30 üstte, mağaza yayını eksik olan a27 ile React Native'i olmayan a28 ise geride; gerekçeler profile dayanıyor ve eksik koşulu açıkça belirtiyor."
+    },
+    {
+      "system": "B",
+      "ranking": 9,
+      "reasons": 9,
+      "note": "Sıralama isteğe uygun; React Native ile mağazada yayında uygulaması olan a30 ikinci sırada. Gerekçeler kısa, doğru ve hangi kriterin karşılanmadığını net söylüyor."
+    },
+    {
+      "system": "C",
+      "ranking": 6,
+      "reasons": 7,
+      "note": "Mağaza yayını koşulunu karşılamayan a27, iki koşulu da karşılayan a30'un önüne konmuş; gerekçeler doğru olsa da istekte yer almayan konum ve ofis bilgileriyle gereksiz uzamış."
+    }
+  ],
+  "call": {
+    "model": "claude-opus-5-5",
+    "usage": {
+      "inputTokens": 6329,
+      "outputTokens": 739
+    },
+    "costUsd": 0.040096,
+    "ms": 8290
+  }
+}

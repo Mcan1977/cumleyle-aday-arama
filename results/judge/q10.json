@@ -1,0 +1,37 @@
+{
+  "id": "q10",
+  "blind": {
+    "A": "haiku",
+    "B": "opus",
+    "C": "sonnet"
+  },
+  "scores": [
+    {
+      "system": "A",
+      "ranking": 8,
+      "reasons": 7,
+      "note": "Tam uyan a47 başta, eksiklerini açıkça belirten a16 ve a49 hemen arkasında; ancak a47 için istekte hiç geçmeyen konum ve uzaktan çalışma 'isteğinizle uyumlu' denilerek gerekçeye katılmış, a37'de de 'teknik yetenekleriniz' gibi hatalı bir ifade var."
+    },
+    {
+      "system": "B",
+      "ranking": 8,
+      "reasons": 8,
+      "note": "Sıralama mantıklı: tam uyan aday başta, a16'nın mezun olmadığı ve a49'da PyTorch bulunmadığı açıkça söylenmiş; yalnızca istekle ilgisi olmayan uzaktan çalışma bilgisi gereksiz yere eklenmiş."
+    },
+    {
+      "system": "C",
+      "ranking": 8,
+      "reasons": 9,
+      "note": "Tam uyan aday başta, tek koşulu eksik a16 ve a49 arkasında yer alıyor; gerekçeler profile dayanıyor ve eksik koşulları (mezun olmama, PyTorch yokluğu, yeni mezun olmama) kısa ve net biçimde belirtiyor."
+    }
+  ],
+  "call": {
+    "model": "claude-opus-5-5",
+    "usage": {
+      "inputTokens": 6707,
+      "outputTokens": 879
+    },
+    "costUsd": 0.044408,
+    "ms": 10601
+  }
+}

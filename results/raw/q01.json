@@ -1,0 +1,260 @@
+{
+  "id": "q01",
+  "query": "İstanbul'da ofisten çalışacak, en az 2 yıl deneyimli frontend geliştirici arıyorum. React ve TypeScript şart.",
+  "criteria": {
+    "role": "Frontend Geliştirici",
+    "requiredSkills": [
+      "React",
+      "TypeScript"
+    ],
+    "skills": [],
+    "city": "İstanbul",
+    "cityFlexible": false,
+    "minYears": 2,
+    "candidateType": "professional",
+    "summary": "En az 2 yıl deneyimli, İstanbul'da ofiste çalışabilecek bir frontend geliştirici. React ve TypeScript ile modern, bileşen tabanlı web arayüzleri geliştirme konusunda güçlü bilgiye sahip; kullanıcı deneyimine önem veren, ekip içinde verimli çalışabilen bir profil."
+  },
+  "criteriaCall": {
+    "model": "claude-haiku-5-5",
+    "usage": {
+      "inputTokens": 1557,
+      "outputTokens": 212
+    },
+    "costUsd": 0.0002617,
+    "ms": 1902
+  },
+  "embeddingCostUsd": 0.0000024,
+  "neighbors": [
+    {
+      "id": "a07",
+      "similarity": 0.7668744147327081
+    },
+    {
+      "id": "a02",
+      "similarity": 0.7539201646267156
+    },
+    {
+      "id": "a01",
+      "similarity": 0.7243925106788479
+    },
+    {
+      "id": "a04",
+      "similarity": 0.7189943642978768
+    },
+    {
+      "id": "a06",
+      "similarity": 0.7163291200084926
+    },
+    {
+      "id": "a03",
+      "similarity": 0.7131088961053815
+    },
+    {
+      "id": "a05",
+      "similarity": 0.6746196696975568
+    },
+    {
+      "id": "a13",
+      "similarity": 0.6679858086776876
+    },
+    {
+      "id": "a27",
+      "similarity": 0.6675094815906129
+    },
+    {
+      "id": "a23",
+      "similarity": 0.6504035766929558
+    }
+  ],
+  "models": {
+    "haiku": {
+      "results": [
+        {
+          "id": "a01",
+          "score": 92,
+          "reason": "Dört yıllık deneyimiyle React ve TypeScript'i üretimde kullanmış, İstanbul'da ofiste çalışıyor. Bileşen kütüphanesi ve 60 ekranlık panel gibi kapsamlı projeleri var."
+        },
+        {
+          "id": "a02",
+          "score": 90,
+          "reason": "React ve TypeScript ile iki yıllık deneyimi var ve İstanbul'da ofiste çalışıyor. Sepet ve ödeme akışı gibi üretim projelerinde bu teknolojileri kullanmış."
+        },
+        {
+          "id": "a06",
+          "score": 82,
+          "reason": "React ve TypeScript ile üç yıllık deneyimi ve İstanbul'da ofis çalışma düzeni var. Arayüzün yanında Node.js sunucu tarafı becerisi de artı olarak öne çıkıyor."
+        },
+        {
+          "id": "a07",
+          "score": 55,
+          "reason": "React ve TypeScript becerileri var ve İstanbul'da ofiste çalışıyor. Ancak deneyimi 1 yıl olduğu için en az 2 yıl şartını karşılamıyor."
+        },
+        {
+          "id": "a27",
+          "score": 55,
+          "reason": "İki yıllık deneyimi ve İstanbul'da ofis çalışması var, TypeScript ve Redux da biliyor. Ancak web React'i yerine React Native ile mobil geliştirme yapıyor, bu nedenle React şartı tam olarak karşılanmıyor."
+        },
+        {
+          "id": "a03",
+          "score": 50,
+          "reason": "React ile üç yıllık deneyimi ve İstanbul'da ofis çalışması var. Ancak profilinde TypeScript görünmüyor, yalnızca JavaScript projeleri belirtilmiş, bu nedenle zorunlu şartlardan biri eksik."
+        },
+        {
+          "id": "a13",
+          "score": 45,
+          "reason": "React, TypeScript ve üç yıllık deneyimi var, ancak Antalya'da yaşıyor. Şehir şartı esnek olmadığı için İstanbul'da ofiste çalışması gereken pozisyonla uyuşmuyor."
+        },
+        {
+          "id": "a05",
+          "score": 40,
+          "reason": "Dört yıllık deneyimi ve İstanbul'da ofis çalışması var, ancak profilinde React görünmüyor. Yalnızca Angular ile çalıştığını belirtmiş, bu da zorunlu şartlardan birinin eksik olduğu anlamına geliyor."
+        },
+        {
+          "id": "a04",
+          "score": 35,
+          "reason": "React ve TypeScript becerileri ile beş yıllık deneyimi güçlü, ancak Ankara'da çalışıyor ve uzaktan çalışmayı düşünmüyor. İstanbul'da ofis şartınızı karşılamıyor."
+        },
+        {
+          "id": "a23",
+          "score": 25,
+          "reason": "Beş yıllık deneyimi ve İstanbul'da ofis çalışması var, ancak backend geliştiricisi olarak görünüyor. Profilinde React veya frontend deneyimi bulunmuyor."
+        }
+      ],
+      "call": {
+        "model": "claude-haiku-5-5",
+        "usage": {
+          "inputTokens": 4100,
+          "outputTokens": 1639
+        },
+        "costUsd": 0.0012295,
+        "ms": 8032
+      }
+    },
+    "sonnet": {
+      "results": [
+        {
+          "id": "a01",
+          "score": 97,
+          "reason": "İstanbul'da, 4 yıl deneyimi var ve 60 ekranlık panelde React ile TypeScript kullanmış. Next.js ve Storybook deneyimi de artı."
+        },
+        {
+          "id": "a02",
+          "score": 90,
+          "reason": "İstanbul'da, 2 yıl deneyimi var ve React ile TypeScript'i sepet/ödeme akışında kullanmış. Redux ve Jest deneyimi de var."
+        },
+        {
+          "id": "a06",
+          "score": 82,
+          "reason": "İstanbul'da, 3 yıl deneyimi var ve React ile TypeScript arayüz yazmış. Full-stack profil olsa da ofis çalışmasına uygun."
+        },
+        {
+          "id": "a07",
+          "score": 62,
+          "reason": "İstanbul'da, React ve TypeScript ile çalışıyor; ancak 1 yıl deneyimi istediğin en az 2 yılın altında."
+        },
+        {
+          "id": "a03",
+          "score": 55,
+          "reason": "İstanbul'da, 3 yıl React deneyimi var; ancak TypeScript şartı profilinde görünmüyor, tüm projeleri JavaScript ile."
+        },
+        {
+          "id": "a04",
+          "score": 50,
+          "reason": "React ve TypeScript ile 5 yıl deneyimi güçlü, ancak Ankara'da ve taşınmayı ya da uzaktan çalışmayı düşünmüyor; İstanbul ofis şartını karşılamıyor."
+        },
+        {
+          "id": "a05",
+          "score": 45,
+          "reason": "İstanbul'da, 4 yıl deneyimli ve TypeScript biliyor; ancak React profilinde görünmüyor, yalnızca Angular ile çalışmış."
+        },
+        {
+          "id": "a27",
+          "score": 45,
+          "reason": "İstanbul'da, 2 yıl deneyimi ve TypeScript var; ancak React değil React Native ile mobil çalışmış, web React deneyimi görünmüyor."
+        },
+        {
+          "id": "a13",
+          "score": 38,
+          "reason": "React ve TypeScript var, 3 yıl deneyim güçlü; ancak Antalya'da, sunucu ağırlıklı çalışıyor ve uzaktan çalışmak istiyor, İstanbul ofis şartına uymuyor."
+        },
+        {
+          "id": "a23",
+          "score": 35,
+          "reason": "İstanbul'da ofisten çalışabilir ve TypeScript biliyor; ancak backend ağırlıklı, React deneyimi profilinde görünmüyor."
+        }
+      ],
+      "call": {
+        "model": "claude-sonnet-5-5",
+        "usage": {
+          "inputTokens": 4100,
+          "outputTokens": 849
+        },
+        "costUsd": 0.01669,
+        "ms": 6339
+      }
+    },
+    "opus": {
+      "results": [
+        {
+          "id": "a01",
+          "score": 95,
+          "reason": "4 yıl deneyimli, İstanbul'da ve React ile TypeScript'te 60 ekranlık müşteri paneli geliştirmiş. Next.js ve Storybook deneyimi de artı."
+        },
+        {
+          "id": "a02",
+          "score": 90,
+          "reason": "2 yıl deneyimle minimum şartı karşılıyor, İstanbul'da. React, TypeScript ve Redux ile ödeme akışı geliştirmiş, Jest ile test deneyimi var."
+        },
+        {
+          "id": "a06",
+          "score": 80,
+          "reason": "3 yıl deneyimli, İstanbul'da ve React ile TypeScript kullanıyor. Full-stack profilde olup frontend odağı daha zayıf."
+        },
+        {
+          "id": "a07",
+          "score": 62,
+          "reason": "İstanbul'da, React ve TypeScript ile fintek projeleri var. Ancak 1 yıl deneyimiyle istenen 2 yılın altında kalıyor."
+        },
+        {
+          "id": "a04",
+          "score": 50,
+          "reason": "5 yıl deneyimli, React ve TypeScript güçlü. Ancak Ankara'da ve taşınmayı düşünmüyor; İstanbul ofis şartını karşılamıyor."
+        },
+        {
+          "id": "a03",
+          "score": 45,
+          "reason": "3 yıl React deneyimi var ve İstanbul'da. Ancak şart olan TypeScript deneyimi yok."
+        },
+        {
+          "id": "a27",
+          "score": 45,
+          "reason": "İstanbul'da, 2 yıl TypeScript deneyimi var ama yalnızca React Native ile mobil geliştirme yapmış. Web React deneyimi profilinde görünmüyor."
+        },
+        {
+          "id": "a05",
+          "score": 40,
+          "reason": "4 yıl deneyimli, İstanbul'da ve TypeScript kullanıyor. Ancak yalnızca Angular ile çalışmış, şart olan React görünmüyor."
+        },
+        {
+          "id": "a13",
+          "score": 30,
+          "reason": "TypeScript ve React listede var ama sunucu ağırlıklı çalışıyor. Antalya'da ve uzaktan çalışıyor; İstanbul ofis şartına uymuyor."
+        },
+        {
+          "id": "a23",
+          "score": 25,
+          "reason": "İstanbul'da ve TypeScript biliyor ancak backend geliştirici. Şart olan React deneyimi profilinde görünmüyor."
+        }
+      ],
+      "call": {
+        "model": "claude-opus-5-5",
+        "usage": {
+          "inputTokens": 4100,
+          "outputTokens": 817
+        },
+        "costUsd": 0.03274,
+        "ms": 8540
+      }
+    }
+  }
+}

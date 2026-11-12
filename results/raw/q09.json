@@ -1,0 +1,261 @@
+{
+  "id": "q09",
+  "query": "İzmir'de çalışacak, Figma kullanan ve tasarım sistemi kurmuş bir UI/UX tasarımcı arıyorum.",
+  "criteria": {
+    "role": "UI/UX Tasarımcı",
+    "requiredSkills": [
+      "Figma"
+    ],
+    "skills": [
+      "Tasarım sistemi"
+    ],
+    "city": "İzmir",
+    "cityFlexible": false,
+    "minYears": null,
+    "candidateType": "any",
+    "summary": "İzmir'de çalışabilecek, Figma kullanan ve tasarım sistemi kurmuş deneyimli bir UI/UX tasarımcı. Kullanıcı deneyimi odaklı arayüz tasarımı yapabilen, bileşen kütüphaneleri ve tutarlı tasarım sistemleri oluşturup yöneten, Figma ile prototip ve tasarım süreçlerini yürütebilen bir profil."
+  },
+  "criteriaCall": {
+    "model": "claude-haiku-5-5",
+    "usage": {
+      "inputTokens": 1555,
+      "outputTokens": 243
+    },
+    "costUsd": 0.000277,
+    "ms": 2068
+  },
+  "embeddingCostUsd": 0.00000284,
+  "neighbors": [
+    {
+      "id": "a43",
+      "similarity": 0.7872746560397976
+    },
+    {
+      "id": "a46",
+      "similarity": 0.7507974804423502
+    },
+    {
+      "id": "a45",
+      "similarity": 0.7102333483794612
+    },
+    {
+      "id": "a44",
+      "similarity": 0.7043641205607175
+    },
+    {
+      "id": "a07",
+      "similarity": 0.6508733331908463
+    },
+    {
+      "id": "a01",
+      "similarity": 0.6141280466905251
+    },
+    {
+      "id": "a02",
+      "similarity": 0.6135497697051289
+    },
+    {
+      "id": "a04",
+      "similarity": 0.5969457166827287
+    },
+    {
+      "id": "a06",
+      "similarity": 0.5958530474447984
+    },
+    {
+      "id": "a03",
+      "similarity": 0.5850627615816374
+    }
+  ],
+  "models": {
+    "haiku": {
+      "results": [
+        {
+          "id": "a43",
+          "score": 92,
+          "reason": "İzmir'de çalışıyor ve profilinde Figma ile tasarım sistemi birlikte görünüyor. 80 bileşenli Figma kütüphanesini sıfırdan kurduğu belirtilmiş, aranan profille neredeyse birebir örtüşüyor."
+        },
+        {
+          "id": "a44",
+          "score": 55,
+          "reason": "Figma ve tasarım sistemi deneyimi var; ancak İstanbul'da yaşıyor ve taşınmayı düşünmediğini belirtiyor, bu da İzmir şartını karşılamıyor. Uzaktan çalışabilmesi şehir şartını tam olarak çözmüyor."
+        },
+        {
+          "id": "a46",
+          "score": 52,
+          "reason": "Figma profilinde görünüyor ve İzmir'de çalışıyor, ancak tasarım sistemi kurmadığını açıkça belirtiyor. Kullanıcı araştırmacısı olduğu için tasarımcı rolü de kısmen eksik kalıyor."
+        },
+        {
+          "id": "a45",
+          "score": 48,
+          "reason": "İzmir'de çalışıyor ve Figma'yı temel düzeyde kullanıyor, ancak arayüz tasarımı ve tasarım sistemi deneyimi yok. Grafik tasarımcı olarak UI/UX rolüne uyumu zayıf."
+        },
+        {
+          "id": "a01",
+          "score": 30,
+          "reason": "Profilinde Figma görünmüyor; zorunlu yetenek eksik. Tasarım sistemini Storybook'ta koda döktüğü için tasarım sistemiyle temas var, ancak İstanbul'da çalışıyor."
+        },
+        {
+          "id": "a07",
+          "score": 15,
+          "reason": "Profilinde Figma yok ve frontend geliştirici olarak çalışıyor. İstanbul'da olduğu ve uzaktan çalışmadığı için şehir şartı da karşılanmıyor."
+        },
+        {
+          "id": "a02",
+          "score": 15,
+          "reason": "Profilinde Figma görünmüyor ve geliştirici olarak React ile çalışıyor. İstanbul'da bulunuyor, İzmir şartı karşılanmıyor."
+        },
+        {
+          "id": "a06",
+          "score": 15,
+          "reason": "Profilinde Figma görünmüyor ve full-stack geliştirici olarak çalışıyor. İstanbul'da olduğu için İzmir şartı da karşılanmıyor."
+        },
+        {
+          "id": "a03",
+          "score": 14,
+          "reason": "Profilinde Figma görünmüyor ve frontend geliştirici olarak JavaScript ağırlıklı çalışıyor. İstanbul'da olduğu için İzmir şartı da karşılanmıyor."
+        },
+        {
+          "id": "a04",
+          "score": 12,
+          "reason": "Profilinde Figma yok ve Ankara'da çalışıyor; uzaktan çalışmayı da düşünmediğini belirtiyor. İzmir şartıyla uyuşmuyor."
+        }
+      ],
+      "call": {
+        "model": "claude-haiku-5-5",
+        "usage": {
+          "inputTokens": 4101,
+          "outputTokens": 1515
+        },
+        "costUsd": 0.0011676,
+        "ms": 7629
+      }
+    },
+    "sonnet": {
+      "results": [
+        {
+          "id": "a43",
+          "score": 97,
+          "reason": "İzmir'de, 4 yıldır UI/UX tasarımcı olarak çalışıyor. Figma'da 80 bileşenli tasarım sistemini sıfırdan kurmuş."
+        },
+        {
+          "id": "a44",
+          "score": 60,
+          "reason": "Figma ve tasarım sistemi deneyimi güçlü, ancak İstanbul'da yaşıyor ve taşınmayı düşünmüyor. İzmir şartını karşılamıyor."
+        },
+        {
+          "id": "a46",
+          "score": 45,
+          "reason": "İzmir'de ve Figma biliyor ama UX araştırmacısı; görsel tasarım ve tasarım sistemi deneyimi yok. UI/UX tasarımcı rolüne kısmen uyuyor."
+        },
+        {
+          "id": "a45",
+          "score": 28,
+          "reason": "İzmir'de ama grafik tasarımcı; Figma'yı yalnızca temel düzeyde kullanıyor. Arayüz tasarımı ve tasarım sistemi deneyimi yok."
+        },
+        {
+          "id": "a01",
+          "score": 14,
+          "reason": "Frontend geliştirici; Figma şartı profilinde görünmüyor. Tasarım sistemini yalnızca koda dökmüş, İstanbul'da."
+        },
+        {
+          "id": "a07",
+          "score": 4,
+          "reason": "Frontend geliştirici; profilinde Figma, tasarım sistemi görünmüyor. İstanbul'da ve uzaktan çalışmıyor."
+        },
+        {
+          "id": "a02",
+          "score": 4,
+          "reason": "Frontend geliştirici; Figma ve tasarım deneyimi profilinde görünmüyor. İstanbul'da ve uzaktan çalışmıyor."
+        },
+        {
+          "id": "a04",
+          "score": 4,
+          "reason": "Frontend geliştirici; Figma ve tasarım deneyimi görünmüyor. Ankara'da ve taşınmayı düşünmüyor."
+        },
+        {
+          "id": "a06",
+          "score": 4,
+          "reason": "Full-stack geliştirici; Figma ve tasarım deneyimi profilinde görünmüyor. İstanbul'da ve uzaktan çalışmıyor."
+        },
+        {
+          "id": "a03",
+          "score": 4,
+          "reason": "Frontend geliştirici; Figma ve tasarım sistemi görünmüyor. İstanbul'da ve uzaktan çalışmıyor."
+        }
+      ],
+      "call": {
+        "model": "claude-sonnet-5-5",
+        "usage": {
+          "inputTokens": 4101,
+          "outputTokens": 807
+        },
+        "costUsd": 0.016272,
+        "ms": 5802
+      }
+    },
+    "opus": {
+      "results": [
+        {
+          "id": "a43",
+          "score": 96,
+          "reason": "İzmir'de çalışan UI/UX tasarımcı; Figma'da 80 bileşenli tasarım sistemini sıfırdan kurmuş. İsteğinin tamamını karşılıyor."
+        },
+        {
+          "id": "a44",
+          "score": 52,
+          "reason": "Figma ile tasarım sistemi kurmuş deneyimli bir ürün tasarımcısı. Ancak İstanbul'da yaşıyor ve taşınmayı düşünmüyor, İzmir şartı karşılanmıyor."
+        },
+        {
+          "id": "a46",
+          "score": 50,
+          "reason": "İzmir'de ve Figma ile prototip hazırlıyor, ancak UX araştırmacısı. Görsel tasarım ve tasarım sistemi deneyimi olmadığını belirtiyor."
+        },
+        {
+          "id": "a45",
+          "score": 30,
+          "reason": "İzmir'de ancak grafik tasarımcı; Figma'yı yalnızca temel düzeyde kullanıyor. Arayüz tasarımı ve tasarım sistemi deneyimi yok."
+        },
+        {
+          "id": "a01",
+          "score": 20,
+          "reason": "Tasarım sistemini Storybook'ta koda dökmüş bir frontend geliştirici, tasarımcı değil. Figma profilinde görünmüyor ve İstanbul'da, uzaktan çalışmıyor."
+        },
+        {
+          "id": "a07",
+          "score": 8,
+          "reason": "Frontend geliştirici; Figma ve tasarım sistemi profilinde görünmüyor. İstanbul'da ve uzaktan çalışmıyor."
+        },
+        {
+          "id": "a02",
+          "score": 8,
+          "reason": "Frontend geliştirici; Figma ve tasarım deneyimi profilinde görünmüyor. İstanbul'da ve uzaktan çalışmıyor."
+        },
+        {
+          "id": "a03",
+          "score": 8,
+          "reason": "Ajans tarafında çalışan bir frontend geliştirici; Figma ve tasarım sistemi profilinde görünmüyor. İstanbul'da ve uzaktan çalışmıyor."
+        },
+        {
+          "id": "a04",
+          "score": 6,
+          "reason": "Frontend geliştirici; Figma profilinde görünmüyor. Ankara dışında çalışmayı düşünmüyor."
+        },
+        {
+          "id": "a06",
+          "score": 6,
+          "reason": "Full-stack geliştirici; Figma ve tasarım sistemi profilinde görünmüyor. İstanbul'da ve uzaktan çalışmıyor."
+        }
+      ],
+      "call": {
+        "model": "claude-opus-5-5",
+        "usage": {
+          "inputTokens": 4101,
+          "outputTokens": 853
+        },
+        "costUsd": 0.033464,
+        "ms": 7409
+      }
+    }
+  }
+}
